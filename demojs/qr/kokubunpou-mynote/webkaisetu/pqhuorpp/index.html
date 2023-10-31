@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link rel="icon" type="image/x-icon" href="./favicon_kokubunpou.png" />
+    <link rel="shortcut icon" href="{./favicon_kokubunpou.png}" />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="../../../../_newAssets/bootstrap-4.0.0/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>国文法マイノート要点解説</title>
+
+    <link rel="stylesheet" href="../../../../_newAssets/css/header.css" />
+    <link rel="stylesheet" href="../../../../_newAssets/css/footer.css" />
+    <!-- res -->
+    <link rel="stylesheet" href="../../../../_newAssets/css/pqhuorpp/index.css" />
+    <script src="../../../../_newAssets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../../../_newAssets/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../../../../_newAssets/js/jquery.min.js"></script>
+    <script src="../../../../_newAssets/js/lodash.min.js"></script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RGMTWX93BM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+      
+          gtag('config', 'G-RGMTWX93BM');
+          </script>
+  </head>
+
+  <body>
+    <div class="container-all-box">
+      <div class="all-box d-flex set-max-width">
+        <div class="img-top">
+          <img src="../../../../_newAssets/image/pqhuorpp/image-top.png" alt="" />
+        </div>
+        <div class="all-box-top d-flex">
+          <div class="big-image w-100 d-flex justify-content-center">
+            <img src="../../../../_newAssets/image/pqhuorpp/book.png" alt="" />
+          </div>
+
+          <div class="box-right">
+            <div class="title-box">
+              <img src="../../../../_newAssets/image/pqhuorpp/title.png" alt="国文法マイノート要点解説" />
+            </div>
+
+            <a class="btn-top" href="./contents.html">
+              <div class="bg-btn d-flex">
+                <div class="logo">
+                  <img src="../../../../_newAssets/image/pqhuorpp/logo-btn.png" alt="" />
+                </div>
+                <div class="title font-jun34-bold">
+                  <h1>CONTENTS</h1>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="all-paper d-flex w-100 flex-wrap">
+          <div class="paper-yellow d-flex flex-wrap align-items-center font_biz_gothic_cb">
+            <div class="paper-blue d-flex justify-content-center align-items-center">
+              <div class="paper-left"></div>
+              <div class="paper-right"></div>
+              <h1>つかいかた</h1>
+            </div>
+
+            <h1 class="text-pc">
+              <span>✱&nbsp;</span><span class="color-black">「国文法マイノート」のまとめノートづくりで、わからないことや<br />もっと<span class="span-sp-dad"><span class="span-small-pc">くわ</span>詳</span>しく知りたいことが出てきたら、要点解説を見てみましょう。</span>
+            </h1>
+
+            <h1 class="text-sp">
+              <span>✱&nbsp;</span>
+              <span class="color-black">「国文法マイノート」のまとめノートづくりで、わからないことやもっと<span class="span-sp-dad"><span class="span-small-sp">くわ</span>詳</span>しく知りたいことが出てきたら、要点解説を見てみましょう。</span>
+              
+            </h1>
+
+            <h1>
+              <span class="font-jun34-bold">✱&nbsp;</span>
+              <span class="color-black font-jun34-bold">CONTENTS<span class="color-black font_biz_gothic_cb">を開き、学習する単元の要点解説を選びましょう。</span></span
+              >
+            </h1>
+            <h1>
+              <span class="font-jun34-bold">✱&nbsp;</span>
+              <span class="color-black font-jun34-bold"
+                >CONTENTS<span class="color-black font_biz_gothic_cb">ページをブックマークしておくのがオススメです。</span></span
+              >
+            </h1>
+            <div class="line-shadow"></div>
+            <div class="paper-botom-right"></div>
+            <div class="paper-botom-left"></div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <script> 
+
+      let fnResize = () => {
+        var isMobile =
+          /Android|webOS|iPhone|iPad|MacIntel|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+          window.navigator.userAgent.indexOf("Mobile") !== -1;
+        let fn = () => {
+          let windowWidth = isMobile ? window.outerWidth : window.innerWidth;
+          $("html").css("overflow-y", "overlay");
+
+          let zoomValue = windowWidth >= 1200 ? 1 : windowWidth / 1200;
+
+          if (windowWidth <= 670) zoomValue = 1;
+
+          if (windowWidth <= 1080){
+            $(".set-max-width").css("max-width", "100%")
+          }else{
+            $(".set-max-width").css("max-width", "1080px")
+          }
+
+          let isNeedZoom = zoomValue != 1; 
+
+          window.zoomValue = zoomValue;
+
+          if (!$("#zoom-container").length) {
+            let bodyChildren = $("body").children();
+
+            let relativeDiv = $(document.createElement("div")).attr("id", "relative-container").css("position", "").append(bodyChildren);
+            let zoomDiv = $(document.createElement("div")).attr("id", "zoom-container").append(relativeDiv);
+            $("body").append(zoomDiv);
+          }
+
+          if (isMobile)
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=${isNeedZoom ? 1200 : windowWidth}, user-scalable=1`);
+          else {
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=device-width, user-scalable=1`);
+
+            if (zoomValue != 1) {
+              $("#zoom-container").css({
+                transform: "scale(" + zoomValue + ")",
+                "-ms-transform": "scale(" + zoomValue + ")",
+                "-moz-transform": "scale(" + zoomValue + ")",
+                "-webkit-transform": "scale(" + zoomValue + ")",
+                "transform-origin": "0 0",
+                "-ms-transform-origin": "0 0",
+                "-moz-transform-origin": "0 0",
+                "-webkit-transform-origin": "0 0",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                width: !isMobile ? "1200px" : 1200 / zoomValue + "px",
+                height: 100 / zoomValue + "%",
+              });
+            } else {
+              $("#zoom-container").css({
+                transform: "",
+                "-ms-transform": "",
+                "-moz-transform": "",
+                "-webkit-transform": "",
+                "transform-origin": "",
+                "-ms-transform-origin": "",
+                "-moz-transform-origin": "",
+                "-webkit-transform-origin": "",
+                position: "",
+                // position: "absolute",
+                top: "0",
+                left: "0",
+                width: "100%",
+                height: "100%",
+              });
+              // $("#relative-container").css("position", "");
+            }
+          }
+
+          if (!window.styleMaps) window.styleMaps = {};
+
+          const { styleMaps } = window;
+
+          if (!isMobile) {
+            Object.keys(document.styleSheets)
+              .map((x) => ({ key: x, info: document.styleSheets[x] }))
+              .filter((x) => !x.info.href || x.info.href.indexOf("_newAssets") > -1)
+              .forEach((s) => {
+                $(document.styleSheets[s.key].cssRules)
+                  .toArray()
+                  .forEach((x, idx) => {
+                    let isPassFilter =
+                      x.media &&
+                      (x.cssText.indexOf("(min-width: ") > -1 ||
+                        x.cssText.indexOf("(max-width: ") > -1 ||
+                        x.parentStyleSheet.href.indexOf("header.css") > -1 ||
+                        x.parentStyleSheet.href.indexOf("footer.css") > -1);
+
+                    if (!isPassFilter) return;
+                    if (!styleMaps[s.key]) {
+                      styleMaps[s.key] = {
+                        href: x.parentStyleSheet.href,
+                      };
+                    }
+                    if (!styleMaps[s.key][idx]) {
+                      styleMaps[s.key][idx] = {};
+                    }
+                    if (!styleMaps[s.key][idx].origin) {
+                      styleMaps[s.key][idx].origin = {
+                        media_text: x.media.mediaText,
+                      };
+                      if (x.media.mediaText.indexOf("max-width") > -1 && x.media.mediaText.indexOf("min-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "max-min-width";
+                      } else if (x.media.mediaText.indexOf("max-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "maxwidth";
+                      } else {
+                        styleMaps[s.key][idx].origin.type = "minwidth";
+                      }
+
+                      // styleMaps[s.key][idx].origin.value = Number(x.media.mediaText.split("px")[0].split("width:")[1].trim());
+                    }
+
+                    const originInfo = styleMaps[s.key][idx].origin;
+
+                    if (originInfo.type == "max-min-width") {
+                      x.media.mediaText = "(max-width: 1px)";
+                    } else if (originInfo.type == "maxwidth") {
+                      x.media.mediaText = "(max-width: 671px)";
+                    } else if (originInfo.type == "minwidth") {
+                      x.media.mediaText = "(min-width: 671px)";
+                    }
+
+                    if (windowWidth <= 670) {
+                      x.media.mediaText = originInfo.media_text;
+                    }
+
+                    styleMaps[s.key][idx].current = x.media.mediaText;
+                  });
+              });
+          } 
+        };
+
+        fn();
+        let count = 0;
+        let itv = setInterval(() => {
+          count += 1;
+          if (count > 5) {
+            clearInterval(itv);
+            return;
+          }
+          fn();
+        }, 20);
+      };
+      $(document).ready(function () {
+        console.log("product_detail ready");
+
+        fnResize(); 
+        $(window).resize(() => {
+          fnResize(); 
+        });
+        $(".materials").on("DOMSubtreeModified", function () {
+          fnSetSameTitleHeight();
+        });
+
+        var btn = $("#button");
+        btn.on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "100");
+        });
+
+        for (let i = 0; i < 5; i++) {
+          $("#li_" + i).hover(function () {
+            if (this.className == "li_drop") {
+              console.log($("#li_" + i));
+              this.classList.add("active");
+            } else {
+              this.classList.remove("active");
+            }
+          });
+        }
+
+        var modalZoomImage = $("#modal-zoom-image");
+        var imageWillBeZoom = $("#image-will-be-zoomed");
+        let overflowOrigin = $("body").css("overflow");
+        $(".icon-wrapper").click(function () {
+          $("body").css("overflow", "hidden");
+          $("body").css("overflow", "hidden");
+          let self = $(this);
+          let zoomImage = self.parent().find(".image-zoom");
+          if (!zoomImage) return;
+
+          modalZoomImage.css("display", "block");
+          imageWillBeZoom.attr("src", zoomImage.attr("src"));
+        });
+
+        $("#modal-zoom-image > .close, #modal-zoom-image > .background").click(function () {
+          modalZoomImage.css("display", "none");
+          imageWillBeZoom.attr("src", "");
+          $("body").css("overflow", overflowOrigin);
+        });
+
+        let imgZoom_1 = document.querySelectorAll(".img-desc_1");
+        let imgZoom_2 = document.querySelectorAll(".img-desc_2");
+        let hassClassZoom_1 = $(imgZoom_1).hasClass("image-zoom");
+        let hassClassZoom_2 = $(imgZoom_2).hasClass("image-zoom");
+
+        function setWidthZoom() {
+          var widthWindown = $(window).width(); //スクロール値を取得
+          if (widthWindown < 671) {
+            $(imgZoom_2).addClass("image-zoom");
+            if (!hassClassZoom_2) {
+              $(imgZoom_2).addClass("image-zoom");
+            }
+
+            $(imgZoom_1).removeClass("image-zoom");
+          }
+
+          if (widthWindown >= 671) {
+            $(imgZoom_1).addClass("image-zoom");
+            $(imgZoom_2).removeClass("image-zoom");
+
+            // console.log(classSlidePC);
+            if (!hassClassZoom_1) {
+              $(imgZoom_1).addClass("image-zoom");
+            }
+          }
+        } //updarte
+
+        window.addEventListener("resize", function () {
+          setWidthZoom();
+        });
+
+        setWidthZoom();
+      });
+    </script>
+
+    <script>
+      $(".navbar-toggler").click(function () {
+        $(".header").toggleClass("bg-radius");
+        $(":root").toggleClass("scroll");
+        $(".navbar-light").toggleClass("show");
+      });
+
+      for (let i = 0; i < 4; i++) {
+        $(".bg-btn-select-" + i).click(function () {
+          $(".form-btn-" + i).toggleClass("display-none");
+          $(".title-select-" + i).toggleClass("close-tab-form");
+        });
+      }
+      var tabLinks = document.querySelectorAll(".category-wapper");
+
+      tabLinks.forEach(function (el) {
+        el.addEventListener("click", openTabs);
+      });
+
+      function openTabs(el) {
+        var btn = el.currentTarget;
+
+        tabLinks.forEach(function (el) {
+          el.classList.remove("active");
+        });
+        btn.classList.add("active");
+      }
+    </script>
+  </body>
+</html>

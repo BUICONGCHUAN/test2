@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/default.css?date=20200928">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+  <script>
+    $(function(){
+      $('[href^="#"]').click(function() {
+        var speed = 1500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        // var position = document.getElementById($(target).attr('id')).offsetTop * $('body').css('zoom');
+        var position = document.getElementById($(target).attr('id')).offsetTop;
+        // alert($('body').css('zoom'))
+        $('body,html').animate({scrollTop:position}, speed, 'easeInOutQuint');
+        return false;
+      });
+    });
+  </script>
+  <title> 思考力検定 あなたの思考力は何年生？｜好学出版</title>
+</head>
+
+<body ontouchstart="">
+  <header>
+    <h1><a href="http://www.shikouryoku.jp/"><img src="img/logo.png?date=20200928" alt="算数・数学 思考力検定"></a></h1>
+    <nav>
+      <a href="#issuelist"><img src="img/btn_main.png" alt="あなたの思考力は何年生？"></a>
+    </nav>
+  </header>  
+  <main>
+    <section class="link-network">
+      <div class="all-link-network">
+        <div class="title">
+          <h1>算数・数学思考力検定　公式SNS</h1>
+        </div>
+        <div class="all-link">
+          <div class="logo-tiwtter">
+            <a href="https://twitter.com/shikouryokuk" target="_blank">
+              <img src="../_newAssets/image/common/img_twitter.png" alt="">
+            </a>
+          </div>
+          <div class="logo-facebook">
+            <a href="https://www.facebook.com/shikouryoku" target="_blank">
+              <img src="../_newAssets/image/common/icon_fb.gif" alt="">
+            </a>
+          </div>
+          <div class="logo-instagram">
+            <a href="https://www.instagram.com/shikouryokukentei/" target="_blank">
+              <img src="../_newAssets/image/common/img_instagram.png" alt="">
+            </a>
+          </div>
+  
+        </div>
+      </div>
+      
+  </section>
+
+    <section id="issuelist" class="issueList">
+      <h2><img src="img/h_tryMenu.png" alt="挑戦メニュー"></h2>
+      <h3><img src="img/h_shogakko.png" alt="小学校"></h3>
+      <p>まずは小学生レベルに挑戦！<br>それぞれ問題数3問、制限時間10分。</p>
+      <nav class="dot">
+        <ul>
+          <li><a href="/shikouryoku20th/01/" target="_blank"><img src="img/btn_s1-2.png" alt="かんたん　１～２年生に挑戦する"></a></li>
+          <li><a href="/shikouryoku20th/02/" target="_blank"><img src="img/btn_s3-4.png" alt="まだ余裕　３～４年生に挑戦する"></a></li>
+          <li><a href="/shikouryoku20th/03/" target="_blank"><img src="img/btn_s5-6.png" alt="少し大変　５～６年生に挑戦する"></a></li>
+        </ul>
+      </nav>
+      <h3><img src="img/h_chugakko.png" alt="中学校"></h3>
+      <p>シッカリ取り組みクリアしたい。<br>中学生レベルに挑戦！<br>問題数3問、制限時間15分。</p>
+      <nav class="dot">
+        <a href="/shikouryoku20th/04/" target="_blank"><img src="img/btn_chugakko.png" alt="かなり難しい　中学生に挑戦する"></a>
+      </nav>
+      <h3><img src="img/h_koko.png" alt="高校"></h3>
+      <p>できる人は少ない。高校入学レベルに挑戦！<br>問題数3問、制限時間15分。</p>
+      <nav>
+        <a href="/shikouryoku20th/05/" target="_blank"><img src="img/btn_koko.png" alt="できたらスゴイ　高校生に挑戦する"></a>
+      </nav>
+    </section>
+
+    <section class="descript">
+      <h2><img src="img/h_descript.png" alt="問題の説明"></h2>
+      <ul>
+        <li>あなたの算数・数学の思考力のレベルが何年生くらいかを判定するサイトです。</li>
+        <li>いろいろな問題に挑戦して、あなたの思考力のレベルを判定してみてください。お子さんや友達と競い合うのも楽しいですよ。</li>
+        <li>このサイトの問題は、算数・数学思考力検定で実際に出題され、全国の小学生や中学生が挑戦して、60％前後の正答率が得られたものだけを使用しています。</li>
+        <li>このサイトの問題と思考力検定の級との対応<br>
+          <table>
+            <tr>
+              <th>1~2年生に挑戦する</th>
+              <td>思考力検定10級</td>
+            </tr>
+            <tr>
+              <th>3~4年生に挑戦する</th>
+              <td>思考力検定8級</td>
+            </tr>
+            <tr>
+              <th>5~6年生に挑戦する</th>
+              <td>思考力検定6級</td>
+            </tr>
+            <tr>
+              <th>中年生に挑戦する</th>
+              <td>思考力検定4級</td>
+            </tr>
+            <tr>
+              <th>高校生に挑戦する</th>
+              <td>思考力検定3~準2級</td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </section>
+
+    <section class="howto">
+      <h2><img src="img/h_howto.png" alt="使い方"></h2>
+      <ul>
+        <li>&#10102;挑戦する学年を選んでください。</li>
+        <li>&#10103;問題がスタートします。制限時間内に解答してください。</li>
+        <li>&#10104;筆記用具などを使って、しっかり考えて解答してください。</li>
+        <li>&#10105;すべての問題が終わったら、合否判定を行います。</li>
+        <li>&#10106;全問正解すると合格証が表示されます。<br>（スタート時点でニックネームを入れると、あなたの名前が入った合格証が表示されます。）</li>
+        <li>&#10107;合格証の画面はスクリーンショットを撮って、記念として残してください。</li>
+      </ul>
+    </section>
+
+    <section class="teach">
+      <h2><a href="http://www.shikouryoku.jp/management/index.html"><img src="img/h_teach.png" alt="監修"></a></h2>
+      <p>iML国際算数・数学能力検定協会</p>
+    </section>
+
+    <section class="books">
+      <h2><img src="img/h_books.png" alt="思考力を伸ばす教材紹介"></h2>
+      <ul>
+        <li><a href="http://www.shikouryoku.jp/form/index.html"><img src="img/p_book1.png" alt="算数・数学 思考力検定"><span>算数・数学<br>思考力検定</span></a></li>
+        <li><a href="http://www.shikouryoku.jp/introduction/index.html#sansu-lab"><img src="img/p_book2.png" alt="算数・数学ラボ"><span class="sl">算数・数学ラボ</span></a></li>
+        <li><a href="http://www.shikouryoku.jp/introduction/index.html"><img src="img/p_book3.png" alt="算数ラボ図形"><span class="sl">算数ラボ図形</span></a></li>
+        <li><a href="http://www.shikouryoku.jp/introduction/index.html#Adventure"><img src="img/p_book4.png" alt="アドベンチャー"><span class="sl">アドベンチャー</span></a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.shikouryoku.jp/"><img src="img/bnr_shikouryoku.png" alt="算数・数学 思考力検定"></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <small><img src="img/txt_copy.png" alt="Copyright c iML国際算数・数学能力検定協会"></small>
+  </footer>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RGMTWX93BM"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-RGMTWX93BM');
+</script>
+
+</body>
+
+</html>
