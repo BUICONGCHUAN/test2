@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../../_newAssets/icon/favicon.png" />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="../../_newAssets/bootstrap-4.0.0/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>好学出版</title>
+
+    <link rel="stylesheet" href="../../_newAssets/css/header.css" />
+    <link rel="stylesheet" href="../../_newAssets/css/footer.css" />
+    <!-- res -->
+    <link rel="stylesheet" href="../../_newAssets/css/special/nk/index.css" />
+    <link rel="stylesheet" href="../../_newAssets/css/special/nk/index-res.css" />
+    <script src="../../_newAssets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../_newAssets/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../../_newAssets/js/jquery.min.js"></script>
+    <script src="../../_newAssets/js/lodash.min.js"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+        <div class="container-fluid col-12 col-lg-2">
+          <div class="navbar-brand d-flex flex-wrap align-items-center col-3 col-sm-3 col-md-3 col-lg-3">
+            <a href="/">
+              <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku_logo.png" />
+            </a>
+            <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+          </div>
+          <div class="btn-collapse col-3 d-flex justify-content-end">
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="line-collaps">
+                <p></p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="collapse collapse-mb navbar-collapse w-100" id="navbarText">
+          <div class="navbar-in d-flex flex-wrap">
+            <ul class="navbar-nav mb-2 mb-lg-0 fs-6 cl-gray font_heavy justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link title-nav w-100" href="../../product/index.html">
+                  <div class="bg-img bg-sky">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+
+                  教材紹介
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="../../ict/index.html">ICT教材</a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="https://ondemand.kogaku-pub.com/kogaku/">オンデマンド教材</a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="./supporttools/index.html">教材サポート</a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" style="position: relative" href="./info/index.html">お役立ち情報</a>
+              </li>
+              <li class="nav-item nav-toggle d-flex align-items-center">
+                <div class="drop-down">
+                  <img src="../../_newAssets/image/common/logo-inbox.png" alt="logo-inbox.png" />
+                  <img src="../../_newAssets/image/common/logo-inbox-disables.png" alt="logo-inbox-disables.png" />
+                </div>
+                <div class="img-drop">
+                  <ul>
+                    <li id="li_1">
+                      <a class="li_drop" href="./contact/index.html">
+                        <img class="img_drop" id="img_1" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />お問い合わせ
+                      </a>
+                    </li>
+
+                    <li id="li_2">
+                      <a class="li_drop" href="../qa/index.html">
+                        <img class="img_drop" id="img_2" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />よくある質問
+                      </a>
+                    </li>
+
+                    <li id="li_3">
+                      <a class="li_drop" href="../company/index.html">
+                        <img class="img_drop" id="img_3" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />会社情報
+                      </a>
+                    </li>
+
+                    <li id="li_4">
+                      <a class="li_drop" href="./recruit/index.html">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />採用案内
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle icon-first" id="li_4">
+                      <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_facebook.png" alt="img_facebook.png" />facebook
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle" id="li_4">
+                      <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_youtube.png" alt="img_youtube.png" />Youtube
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle" id="li_4">
+                      <a class="text-muted" href="#" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_twitter.png" alt="img_twitter.png" />Twitter
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <div class="nav-toggle-mb font_heavy w-100">
+              <div class="all-box-toggle justify-content-between d-flex flex-wrap">
+                <div class="box-left d-flex flex-wrap">
+                  <a class="box-1 w-100" href="/contact/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_1" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span>お問い合わせ</span>
+                  </a>
+                  <a class="box-1 w-100" href="/qa/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_2" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span>よくある質問</span>
+                  </a>
+                </div>
+
+                <div class="box-right d-flex flex-wrap">
+                  <a class="box-1 w-100" href="/company/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_3" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span> 会社情報 </span>
+                  </a>
+                  <a class="box-1 w-100" href="/recruit/guideline/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_4" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span> 採用案内 </span>
+                  </a>
+                </div>
+              </div>
+              <div class="box-icon d-flex justify-content-center">
+                <div class="icon-fb d-flex flex-wrap">
+                  <a class="text-muted d-flex flex-wrap justify-content-center" href="https://twitter.com/kogaku_pub" target="_blank">
+                    <img class="img_drop twi-mobile" id="img_4" src="../../_newAssets/image/common/img_twitter.png" alt="img_twitter.png" /><span
+                      class="w-100 d-flex justify-content-center twi-mobile"
+                      >Twitter</span
+                    >
+                  </a>
+                </div>
+                <div class="icon-yb d-flex flex-wrap">
+                  <a class="text-muted d-flex flex-wrap justify-content-center" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                    <img class="img_drop fb-mobile" id="img_4" src="../../_newAssets/image/common/img_facebook.png" alt="img_facebook.png" /><span
+                      class="w-100 d-flex justify-content-center fb-mobile"
+                      >facebook</span
+                    >
+                  </a>
+                </div>
+
+                <div class="icon-twitter d-flex flex-wrap">
+                  <a
+                    class="text-muted d-flex flex-wrap justify-content-center"
+                    href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured"
+                    target="_blank"
+                  >
+                    <img class="img_drop yb-mobile" id="img_4" src="../../_newAssets/image/common/img_youtube.png" alt="img_youtube.png" /><span
+                      class="w-100 d-flex justify-content-center yb-mobile"
+                      >Youtube</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <nav class="link-resource">
+      <div class="all-link font_regular">
+        <a class="breadcrumb-item" href="../../index.html">トップページ</a>
+
+        <span>/</span>
+        <a class="breadcrumb-item font_heavy m-0" style="transform: none; text-decoration: unset">入試完成シリーズ</a>
+      </div>
+    </nav>
+    <nav class="link-resource link-resource-sp">
+      <div class="all-link d-flex font_bold">
+        <a href="../../index.html">TOP</a>
+        <span></span>
+        <a>入試完成シリーズ</a>
+      </div>
+      <div class="bg-gray"></div>
+    </nav>
+    <div class="bg-header">
+      <img class="bg-pc" src="../../_newAssets/image/special/nk/bgLayer1.png" alt="" />
+      <img class="bg-sp" src="../../_newAssets/image/special/nk/bg-sp.png" alt="" />
+      <div class="text-butom-image"> 
+          <span>2023年 春 出荷開始&nbsp&nbsp&nbsp詳しくは<a href=""><span class="text-under-line">こちら</span></a></span> 
+      </div>
+    </div>
+    <section class="main-1">
+      <div class="sc1">
+        <div class="sc1-double-btn">
+          <a href="#link1">
+            <div class="sc1-btn">
+              <div class="sc1-btn-cc">
+                <img src="../../_newAssets/image/special/nk/pink-arr.png" />
+              </div>
+              <p class="font_heavy">シリーズ増強のポイント</p>
+            </div>
+          </a>
+          <a href="#link2">
+            <div class="sc1-btn">
+              <div class="sc1-btn-cc">
+                <img src="../../_newAssets/image/special/nk/pink-arr.png" />
+              </div>
+              <p class="font_heavy">入試完成シリーズとは？</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="categories font_heavy">
+        <div class="all-box-title d-flex flex-wrap">
+          <div class="category-wapper tab1 active" onclick="openPage('Home', this)" id="defaultOpen">
+            <div class="but">
+              <div class="line-wapper line-tab1">
+                <img src="../../_newAssets/image/special/nk/dot-line.png" class="dot-line-img" />
+              </div>
+              <p class="text-btn-tab1 font_heavy">英 語</p>
+            </div>
+            <div class="tg-side"></div>
+            <div class="tg-side-white">
+              <img src="../../_newAssets/image/special/nk/tg-white.jpg" class="tg-side-white" />
+            </div>
+          </div>
+          <div class="category-wapper tab2" onclick="openPage('News', this)">
+            <div class="but">
+              <div class="line-wapper line-tab2">
+                <img src="../../_newAssets/image/special/nk/dot-line.png" class="dot-line-img" />
+              </div>
+              <p class="text-btn-tab2 font_heavy">数 学</p>
+            </div>
+            <div class="tg-side"></div>
+            <div class="tg-side-white">
+              <img src="../../_newAssets/image/special/nk/tg-white.jpg" class="tg-side-white" />
+            </div>
+          </div>
+          <div class="category-wapper tab3" onclick="openPage('Contact', this)">
+            <div class="but">
+              <div class="line-wapper line-tab3">
+                <img src="../../_newAssets/image/special/nk/dot-line.png" class="dot-line-img" />
+              </div>
+              <p class="text-btn-tab3 font_heavy">国 語</p>
+            </div>
+            <div class="tg-side"></div>
+            <div class="tg-side-white">
+              <img src="../../_newAssets/image/special/nk/tg-white.jpg" class="tg-side-white" />
+            </div>
+          </div>
+          <div class="category-wapper tab4" onclick="openPage('Tab4', this)">
+            <div class="but">
+              <div class="line-wapper line-tab4">
+                <img src="../../_newAssets/image/special/nk/dot-line.png" class="dot-line-img" />
+              </div>
+              <p class="text-btn-tab4 font_heavy">理 科</p>
+            </div>
+            <div class="tg-side"></div>
+            <div class="tg-side-white">
+              <img src="../../_newAssets/image/special/nk/tg-white.jpg" class="tg-side-white" />
+            </div>
+          </div>
+          <div class="category-wapper tab5" onclick="openPage('Tab5', this)">
+            <div class="but">
+              <div class="line-wapper line-tab5">
+                <img src="../../_newAssets/image/special/nk/dot-line.png" class="dot-line-img" />
+              </div>
+              <p class="text-btn-tab5 font_heavy">社 会</p>
+            </div>
+            <div class="tg-side"></div>
+            <div class="tg-side-white">
+              <img src="../../_newAssets/image/special/nk/tg-white.jpg" class="tg-side-white" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- body-tabs  -->
+      <div id="Home" class="tabcontent">
+        <div class="tab-title pinktab">
+          <div class="tab-title-line line-tab1"></div>
+          <div class="tab-title-txt font_bold">
+            <p class="black-txt-pc">新刊3冊を加え、新しい入試への対策を強化した全8冊をラインナップ。</p>
+            <p class="black-txt-pc">400~800語の長文を収録した<a class="gold-txt">長文問題の完成Ⅱ</a>、</p>
+            <p class="black-txt-pc">グラフを選んだり話の概要を答えたりするような近年の入試も収録した<a class="gold-txt">リスニングの完成Ⅱ</a>、</p>
+            <p class="black-txt-pc">
+              思考力・表現力が必要とされる長文読解や英作文に特化した<a class="gold-txt">思考力問題の完成</a>が新たに登場です。
+            </p>
+            <p class="black-txt-sp black-txt-sp-red">
+              新刊3冊を加え、新しい入試への対策を強化した全8冊をラインナップ。<br />400~800語の長文を収録した<a class="gold-txt">長文問題の完成Ⅱ</a
+              >、<br />グラフを選んだり話の概要を答えたりするような近<br />年の入試も収録した<a class="gold-txt">リスニングの完成Ⅱ</a>、 思考力・<br />表現力が必要とされる長文読解や英作文に特化した<br /><a
+                class="gold-txt"
+                >思考力問題の完成</a
+              >が新たに登場です。
+            </p>
+          </div>
+        </div>
+        <div class="book-row2 rowbook-tab1">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r1.png" class="book-img" alt="英語 長文問題の完成" />
+            <a href="/product/nk-english01">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r1.png" class="book-img" alt="英語 長文問題の完成Ⅱ" />
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <a href="/product/nk-english06">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book3-r1.png" class="book-img" alt="英語 長文問題の解き方" />
+            <a href="/product/nk-english04">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book4-r2.png" class="book-img" alt="英語 思考力問題の完成" />
+            <a href="/product/nk-english08">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book5-r2.png" class="book-img" alt="英作文の完成" />
+            <a href="/product/nk-english02">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r2.png" class="book-img" alt="リスニングの解き方" />
+            <a href="/product/nk-english05">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r2.png" class="book-img" alt="リスニングの完成" />
+            <a href="/product/nk-english03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book3-r2.png" class="book-img" alt="リスニングの完成Ⅱ" />
+            <a href="/product/nk-english07">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="book-row1 rowbook2-tab1">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r2.png" class="book-img" alt="リスニングの解き方" />
+            <a href="/product/nk-english05">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r2.png" class="book-img" alt="リスニングの完成" />
+            <a href="/product/nk-english03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book3-r2.png" class="book-img" alt="リスニングの完成Ⅱ" />
+            <a href="/product/nk-english07">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/pink-arr-2.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div> -->
+      </div>
+
+      <div id="News" class="tabcontent">
+        <div class="tab-title bluetab">
+          <div class="tab-title-line line-tab2"></div>
+
+          <div class="tab-title-txt tab-title-txt-3line font_bold">
+            <p class="black-txt-pc">分野別に出題される各大問の「1問目」を確実に得点できる力がつく</p>
+            <p class="black-txt-pc"><a class="gold-txt">大問のここだけ取り組む(1)の完成</a>を新たに発刊し、全4点になります。</p>
+            <p class="black-txt-pc">
+              多くの先生方にご好評いただいている<a class="gold-txt">大問1の完成</a
+              >とあわせてご使用いただけば、得点源となる問題を確実に正答する力が養えます。
+            </p>
+            <p class="black-txt-sp black-txt-sp-blue">
+              分野別に出題される各大問の「1問目」を確実に<br />得点できる力がつく<a class="gold-txt">大問のここだけ取り組む(1)<br />の完成</a
+              >を新たに発刊し、全4点になります。<br />多くの先生方にご好評いただいている<a class="gold-txt">大問1の完成</a
+              >とあわせてご使用いただけば、得点源となる問題を確実に正答する力が養えます。
+            </p>
+          </div>
+        </div>
+        <div class="book-row2 rowbook-tab2">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book1-tab2.png" class="book-img" alt="数学 大問のここだけ取り組む(1)の完成" />
+            <a href="/product/nk-math04">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat-2.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book2-tab2.png" class="book-img" alt="数学 大問１の完成" />
+            <a href="/product/nk-math02">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book3-tab2.png" class="book-img" alt="数学 融合問題の完成" />
+            <a href="/product/nk-math01">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book4-tab2.png" class="book-img" alt="関数・図形の解き方" />
+            <a href="/product/nk-math03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="Contact" class="tabcontent">
+        <div class="tab-title greentab">
+          <div class="tab-title-line line-tab3"></div>
+          <div class="tab-title-txt tab-title-txt-3line font_bold">
+            <p class="black-txt-pc">特に重視される現代文読解の対策ができる新刊2冊を加え、全5冊をラインナップ。</p>
+            <p class="black-txt-pc">
+              会話文やノート形式などの多様な問題形式に対応し、字数の多い記述の対策も万全な<a class="gold-txt">記述問題の完成</a>、
+            </p>
+            <p class="black-txt-pc">効率よく文章を読む力が養える<a class="gold-txt">超長文読解の完成</a>が新登場です。</p>
+            <p class="black-txt-sp black-txt-sp-green">
+              特に重視される現代文読解の対策ができる新刊2冊を加え、全5冊をラインナップ。<br />会話文やノート形式などの多様な問題形式に対応し、字数の多い記述の対策も万全な<a
+                class="gold-txt"
+                >記述問題の完成</a
+              >、効率よく文章を読む力が養える<a class="gold-txt">超長文読解の完成</a>が新登場です。
+            </p>
+          </div>
+        </div>
+        <div class="book-row2 rowbook-tab3">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book1-tab3.png" class="book-img" alt="国語 記述問題の完成" />
+            <a href="/product/nk-japanese04">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/green-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-tab3.png" class="book-img" alt="国語 記述問題の解き方" />
+            <a href="/product/nk-japanese02">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/green-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book3-tab3.png" class="book-img" alt="国語 超長文読解の完成" />
+            <a href="/product/nk-japanese05">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/green-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book4-tab3.png" class="book-img" alt="入試頻出 国文法の完成" />
+            <a href="/product/nk-japanese01">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/green-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book5-tab3.png" class="book-img" alt="入試頻出 古典の完成" />
+            <a href="/product/nk-japanese03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/green-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="Tab4" class="tabcontent">
+        <div class="tab-title oratab">
+          <div class="tab-title-line line-tab4"></div>
+          <div class="tab-title-txt tab-5-line font_bold">
+            <p class="black-txt-pc">新刊2冊を加え、全5冊をラインナップ。</p>
+            <p class="black-txt-pc">
+              テーマが特殊で、思考力や判断力を必要とする問題を扱った<a class="gold-txt">探究問題の完成</a>、<br />入試頻出の小問をランダムに演習する<a
+                class="gold-txt"
+                >大問1の完成</a
+              >が新登場です。
+            </p>
+            <p class="black-txt-pc">
+              既刊の<a class="gold-txt">実験・観察問題の解き方</a>と<a class="gold-txt">計算・作図・記述の完成</a>の2冊には、
+            </p>
+            <p class="black-txt-pc">学習指導要領に追加されたダニエル電池に関する入試問題を新たに掲載しました。</p>
+            <p class="black-txt-sp black-txt-sp-orange">
+              新刊2冊を加え、全5冊をラインナップ。<br />テーマが特殊で、思考力や判断力を必要とする問題を扱った<a class="gold-txt">探究問題の完成</a
+              >、入試頻出の小問をランダムに演習する<a class="gold-txt">大問1の完成</a>が新登場です。<br />既刊の<a class="gold-txt"
+                >実験・観察問題の解き方</a
+              >と<a class="gold-txt">計算・作図・記述の完成</a>の2冊には、学習指導要領に追加されたダニエル電池に関する入試問題を新たに掲載しました。
+            </p>
+          </div>
+        </div>
+        <div class="book-row2 rowbook-tab4">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book1-tab4.png" class="book-img" alt="理科 探求問題の完成" />
+            <a href="/product/nk-science04">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/ora-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book2-tab4.png" class="book-img" alt="理科 大問１の完成" />
+            <a href="/product/nk-science05">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/ora-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat-2.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book3-tab4.png" class="book-img" alt="理科 実験・観察問題の解き方" />
+            <a href="/product/nk-science01">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/ora-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat-2.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book4-tab4.png" class="book-img" alt="理科 計算・作図・記述の完成" />
+            <a href="/product/nk-science02">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/ora-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book5-tab4.png" class="book-img" alt="理科 計算問題の解き方" />
+            <a href="/product/nk-science03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/ora-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="Tab5" class="tabcontent">
+        <div class="tab-title browntab">
+          <div class="tab-title-line line-tab5"></div>
+          <div class="tab-title-txt font_bold">
+            <p class="black-txt-pc">新刊2冊を加え、全5冊をラインナップ。</p>
+            <p class="black-txt-pc">
+              問題文や選択肢文が長い問題、特殊な資料を使用した問題などに取り組む<a class="gold-txt">長文・資料読解の完成</a>、
+            </p>
+            <p class="black-txt-pc">地理・歴史分野の入試頻出内容のみに特化した<a class="gold-txt">地歴頻出問題の完成</a>が新登場です。</p>
+            <p class="black-txt-pc">
+              <a class="gold-txt">資料問題の完成</a>と<a class="gold-txt">記述問題の完成</a>の2冊も内容をリニューアルして全面改訂です。
+            </p>
+            <p class="black-txt-sp black-txt-sp-brown">
+              新刊2冊を加え、全5冊をラインナップ。<br />問題文や選択肢文が長い問題、特殊な資料を使用した問題などに取り組む<a class="gold-txt"
+                >長文・資料読解の完成</a
+              >、地理・歴史分野の入試頻出内容のみに特化した<a class="gold-txt">地歴頻出問題の完成</a>が新登場です。<br /><a class="gold-txt"
+                >資料問題の完成</a
+              >と<a class="gold-txt">記述問題の完成</a>の2冊も内容をリニューアルして全面改訂です。
+            </p>
+          </div>
+        </div>
+        <div class="book-row2 rowbook-tab5">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book1-tab5.png" class="book-img" alt="社会 長文・資料読解の完成" />
+            <a href="/product/nk-socialstudies04">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/bro-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book2-tab5.png" class="book-img" alt="地歴頻出問題の完成" />
+            <a href="/product/nk-socialstudies05">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/bro-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat-2.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book3-tab5.png" class="book-img" alt="社会 記述問題の完成" />
+            <a href="/product/nk-socialstudies02">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/bro-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/icon-chat-2.png" class="icon-chat" />
+            <img src="../../_newAssets/image/special/nk/book4-tab5.png" class="book-img" alt="社会 資料問題の完成" />
+            <a href="/product/nk-socialstudies03">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/bro-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book5-tab5.png" class="book-img" alt="テーマ史の完成" />
+            <a href="/product/nk-socialstudies01">
+              <div class="book-btn">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/bro-arr.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-2">
+      <div class="blue-title" id="link1">
+        <div class="icon-blue-contain">
+          <img src="../../_newAssets/image/special/nk/check.png" class="icon-blue-1" />
+        </div>
+        <p class="font_heavy">シリーズ増強のポイント</p>
+      </div>
+      <div class="blue-part">
+        <div class="div_point-box">
+          <div class="point-box">
+            <p class="font_heavy">Point</p>
+            <p class="big-num font_heavy">01</p>
+          </div>
+          <div class="blue-part-txt font_heavy">
+            <p>思考力を問う入試問題の対策に特化した</p>
+            <p class="blue-part-p2"><a class="border-line">思考力Plus</a>を創刊</p>
+          </div>
+        </div>
+      </div>
+      <div class="white-part white-part-1">
+        <div class="black-txt-part font_bold">
+          <p class="black-txt-pc">近年特に増加している、思考力や表現力、読解力が求められる問題の対策に特化した</p>
+          <p class="black-txt-pc"><a class="border-lin">思考力Plus</a>を英語・理科・社会から発刊します。</p>
+          <p class="black-txt-pc">難易度が高く、解くのに時間を要する問題の思考のポイントを押さえ、</p>
+          <p class="black-txt-pc">入試本番での得点力アップにつなげます。</p>
+          <p class="black-txt-sp">
+            近年特に増加している、思考力や表現力、読解<br />力が求められる問題の対策に特化した<br /><a class="border-lin">思考力Plus</a
+            >を英語・理科・社会から発刊します。<br />難易度が高く、解くのに時間を要する問題の思<br />考のポイントを押さえ、入試本番での得点力アップにつなげます。
+          </p>
+        </div>
+
+        <div class="book-row1 book-row1-cover">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r3.png" class="book-img" alt="英語 思考力問題の完成" />
+            <a href="/product/nk-english08">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r3.png" class="book-img" alt="理科 探求問題の完成" />
+            <a href="/product/nk-science04">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book3-r3.png" class="book-img" alt="社会 長文・資料読解の完成" />
+            <a href="/product/nk-socialstudies04">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="blue-part">
+        <div class="div_point-box">
+          <div class="point-box">
+            <p class="font_heavy">Point</p>
+            <p class="big-num font_heavy">02</p>
+          </div>
+          <div class="blue-part-txt font_heavy">
+            <p class="blue-part-p3 blue-txt-pc">よく出る分野や出題形式を</p>
+            <p class="blue-part-p4 blue-txt-pc">重点的に演習できる教材を全教科で増刊</p>
+            <p class="blue-txt-sp blue-txt-sp-02">よく出る分野や出題形式を重点的に演習で<br />きる教材を全教科で増刊</p>
+          </div>
+        </div>
+      </div>
+      <div class="white-part white-part-2">
+        <div class="black-txt-part font_bold">
+          <p class="black-txt-pc">近年の入試に頻出の問題や、比較的解きやすく得点源としたい問題が</p>
+          <p class="black-txt-pc">しっかり演習できる新刊を、各教科から発刊します。</p>
+          <p class="black-txt-pc">また、ご好評いただいている英語の長文読解やリスニング、</p>
+          <p class="black-txt-pc">国語の記述問題の対策教材を増刊してお届けします。</p>
+          <p class="black-txt-sp">
+            近年の入試に頻出の問題や、比較的解きやすく得点源としたい問題がしっかり演習できる新刊を、各教科から発刊します。<br />また、ご好評いただいている英語の長文読解や<br />リスニング、国語の記述問題の対策教材を増刊<br />してお届けします。
+          </p>
+        </div>
+
+        <div class="book-row2 book-row2-cover" style="width: 1030px">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r4.png" class="book-img" />
+            <a href="nk-english06">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r4.png" class="book-img" />
+            <a href="/product/nk-english07">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book3-r4.png" class="book-img" />
+            <a href="/product/nk-math04">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book4-r4.png" class="book-img" />
+            <a href="/product/nk-japanese04">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book5-r4.png" class="book-img" />
+            <a href="/product/nk-japanese05">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="book-row3 book-row3-cover">
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book1-r5.png" class="book-img" />
+            <a href="/product/nk-science05">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+          <div class="book-box">
+            <img src="../../_newAssets/image/special/nk/book2-r5.png" class="book-img" />
+            <a href="/product/nk-socialstudies05">
+              <div class="book-btn btn-blue">
+                <div class="book-btn-cc">
+                  <img src="../../_newAssets/image/special/nk/blue-array.png" class="pink-arr-2" />
+                </div>
+                <p class="font_heavy">教材詳細へ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-3">
+      <div class="blue-title" id="link2">
+        <div class="icon-blue-contain">
+          <img src="../../_newAssets/image/special/nk/icon-blue-2.png" class="icon-blue-1" />
+        </div>
+        <p class="font_heavy">入試完成シリーズとは？</p>
+      </div>
+      <div class="blue-part">
+        <div class="title-icon-hc">
+          <img src="../../_newAssets/image/special/nk/icon-hc.png" class="icon-hc" />
+          <p class="title-hc-pc font_heavy">入試頻出の問題を得点源にできる豊富なラインナップ</p>
+          <p class="title-hc-sp font_heavy">入試頻出の問題を<br />得点源にできる豊富な<br />ラインナップ</p>
+        </div>
+        <div class="white-part white-part-3">
+          <div class="black-txt-part font_bold">
+            <p class="black-txt-pc">高校入試には、例年よく出る分野や出題形式があります。</p>
+            <p class="black-txt-pc">入試対策において重要なのは、入試で出される問題が解けるようになることです。</p>
+            <p class="black-txt-pc">毎年必ず出題される問題はもちろん、 他県の問題にも注意が必要です。</p>
+            <p class="black-txt-pc">入試完成シリーズは、頻出の分野や形式に特化して学習できる教材を多数取り揃えています。</p>
+            <p class="black-txt-pc">その時必要な1冊を、どうぞお選びください。</p>
+            <p class="black-txt-sp">
+              高校入試には、例年よく出る分野や出題形式があります。<br />入試対策において重要なのは、入試で出される問題が解けるようになることです。<br />毎年必ず出題される問題はもちろん、
+              他県の問題にも注意が必要です。<br />入試完成シリーズは、頻出の分野や形式に特化<br />して学習できる教材を多数取り揃えています。<br />その時必要な1冊を、どうぞお選びください。
+            </p>
+          </div>
+          <div class="list-icon">
+            <img class="book-1" src="../../_newAssets/image/special/nk/icon-book.png" style="width: 90px" alt="" />
+            <img class="pen" src="../../_newAssets/image/special/nk/icon-pen.png" style="width: 45px; height: 90px" alt="" />
+            <img class="tag" src="../../_newAssets/image/special/nk/tag-icon.png" style="width: 110px; height: 85px" alt="" />
+            <img class="book-2" src="../../_newAssets/image/special/nk/icon-book-2.png" alt="" />
+            <img class="bottle" src="../../_newAssets/image/special/nk/icon-bottle.png" style="width: 65px" alt="" />
+            <img class="book-3" src="../../_newAssets/image/special/nk/icon-book-3.png" style="width: 110px" alt="" />
+            <img class="eraser" src="../../_newAssets/image/special/nk/icon-eraser.png" style="width: 35px" alt="" />
+            <img class="earth" src="../../_newAssets/image/special/nk/icon-earth.png" alt="" />
+          </div>
+          <a href="/info/nyuushi/">
+            <div class="sc1-btn main3-btn">
+              <div class="sc1-btn-cc">
+                <img src="../../_newAssets/image/special/nk/pink-arr.png" />
+              </div>
+              <p class="font_heavy">最新の入試情報はこちら!</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="blue-part blue-part-bg">
+        <div class="title-icon-hc">
+          <img src="../../_newAssets/image/special/nk/icon-hc.png" class="icon-hc" />
+          <p class="font_heavy title-blue-hc">習熟度や目標に合わせて「解き方」と「完成」が選べる</p>
+        </div>
+        <div class="white-part white-part-4">
+          <div class="main3-blue-pen font_heavy">
+            <p class="blue-pen-pc"><a class="blu-hold">解き方</a>を押さえて苦手分野の重点対策ができる!</p>
+            <p class="blue-pen-sp"><a class="blu-hold">解き方</a>を押さえて苦手分野の<br />重点対策ができる!</p>
+          </div>
+          <div class="black-txt-part black-txt-part-last font_bold">
+            <p class="black-txt-pc">入試頻出でありながら、苦手な生徒の多い問題があります。</p>
+            <p class="black-txt-pc"><a class="red-min-txt">解き方</a>では解法の手順を丁寧に示しているので、</p>
+            <p class="black-txt-pc">苦手な生徒でも基礎から入試対策が始められ、実戦力を養うことができます。</p>
+            <p class="black-txt-pc">また、入試対策初期にお使いいただくのもおすすめです。</p>
+            <p class="black-txt-sp">
+              入試頻出でありながら、苦手な生徒の多い問題があります。<br /><a class="red-min-txt">解き方</a
+              >では解法の手順を丁寧に示しているの<br />で、苦手な生徒でも基礎から入試対策が始められ、実戦力を養うことができます。<br />また、入試対策初期にお使いいただくのもおす<br />すめです。
+            </p>
+          </div>
+          <div class="image-blu-border-1">
+            <img src="../../_newAssets/image/special/nk/page1-195.png" class="page1-195" />
+            <img src="../../_newAssets/image/special/nk/img-icon-tx1.png" class="img-icon-tx1 img-icon-txt-pc" />
+            <img src="../../_newAssets/image/special/nk/box-text-1-sp.png" class="img-icon-tx1 img-icon-txt-sp" />
+            <img class="studen1" src="../../_newAssets/image/special/nk/student1.png" alt="student" />
+          </div>
+          <div class="main3-blue-pen main3-blue-pen-2 font_heavy">
+            <p>入試過去問を中心とした演習で得点力を<a class="blu-hold">完成</a>させる!</p>
+          </div>
+          <div class="black-txt-part black-txt-part-last font_bold">
+            <p class="black-txt-pc"><a class="red-min-txt">完成</a>は、実入試を中心とした問題構成で</p>
+            <p class="black-txt-pc">頻出問題を得点源にするための実戦的な演習ができます。</p>
+            <p class="black-txt-pc">思考力・判断力・表現力が問われる難しい問題や特殊な問題でも、</p>
+            <p class="black-txt-pc">何度も演習に取り組み、 解き慣れておくことで、</p>
+            <p class="black-txt-pc">入試本番にしっかりと実力を発揮することができます。</p>
+            <p class="black-txt-sp">
+              <a class="red-min-txt">完成</a
+              >は、実入試を中心とした問題構成で頻出問題を得点源にするための実戦的な演習ができます。<br />思考力・判断力・表現力が問われる難しい問題や特殊な問題でも、何度も演習に取り組み、
+              解き慣れておくことで、入試本番にしっかりと実力を発揮することができます。
+            </p>
+          </div>
+          <div class="image-blu-border-2">
+            <div class="img-blu-br-1">
+              <img src="../../_newAssets/image/special/nk/page2-１97.png" class="page2-197" />
+              <img src="../../_newAssets/image/special/nk/box-text-2.png" class="img-icon-tx2" />
+            </div>
+            <div class="img-blu-br-2">
+              <img src="../../_newAssets/image/special/nk/pag3-197.png" class="page3-197" />
+              <img src="../../_newAssets/image/special/nk/box-text-1.png" class="img-icon-tx3 img-icon-txt-pc" />
+              <img src="../../_newAssets/image/special/nk/img-icon-txt1-sp.png" class="img-icon-tx3 img-icon-txt-sp" />
+              <img class="student2" src="../../_newAssets/image/special/nk/student2.png" class="studen2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-part">
+        <div class="title-icon-hc title-icon-hc-cover">
+          <img src="../../_newAssets/image/special/nk/icon-hc.png" class="icon-hc" />
+          <p class="title-hc-pc font_heavy">適度なボリュームに必須の内容がまとまっている</p>
+          <p class="title-hc-sp font_heavy">適度なボリュームに<br />必須の内容が<br />まとまっている</p>
+        </div>
+      </div>
+      <div class="white-part white-part-5">
+        <div class="black-txt-part black-txt-part-last font_bold">
+          <p class="black-txt-pc">入試完成シリーズは、3年生の後半で鍛えたい内容をピンポイントに対策できる教材です。</p>
+          <p class="black-txt-pc">それぞれ32～64ページとコンパクトにまとまっており、</p>
+          <p class="black-txt-pc">短期集中の特別講座などでもお使いいただきやすいボリュームになっています。</p>
+          <p class="black-txt-pc">短期間で効率よく着実に、入試本番での得点力が養えます。</p>
+          <p class="black-txt-sp" style="align-items: center; width: 93%; margin: auto">
+            入試完成シリーズは、3年生の後半で鍛えたい内容をピンポイントに対策できる教材です。<br />それぞれ32～64ページとコンパクトにまとまっており、短期集中の特別講座などでもお使いいただきやすいボリュームになっています。<br />短期間で効率よく着実に、入試本番での得点力が養えます。
+          </p>
+        </div>
+        <div class="img-student3">
+          <img src="../../_newAssets/image/special/nk/student3.png" alt="" />
+        </div>
+      </div>
+      <div class="table-box">
+        <div class="table-box-title">
+          <img src="../../_newAssets/image/special/nk/book.png" class="icon-bbook" />
+          <p class="font_heavy">シリーズ一覧</p>
+        </div>
+        <div class="table-row">
+          <ul class="table-row-text">
+            <li>
+              <a href="/product/nk-english01" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">英語 長文問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english06" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">英語 長文問題の完成Ⅱ</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english04" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">英語 長文問題の解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english08" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">英語 思考力問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english02" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">英作文の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english03" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">リスニングの完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english07" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="font_bold">リスニングの完成Ⅱ</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-english05" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>リスニングの解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-math04" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="text-link-pc">数学 大問のここだけ<br />取り組む(1)の完成</p>
+                <p class="text-link-sp">数学 大問のここだけ取り組む(1)の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-math02" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>数字 大問１の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-math03" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>関数・図形の解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-math01" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>数学 融合問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-japanese04" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>国語 記述問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-japanese02" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>国語 記述問題の解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-japanese05" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>国語 超長文読解の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-japanese01" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>入試頻出 国文法の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-japanese03" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>入試頻出 古典の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-science04" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>理科 探究問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-science05" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>理科 大問１の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-science01" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="text-link-pc">理科 実験・観察問題の<br />解き方</p>
+                <p class="text-link-sp">理科 実験・観察問題の解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-science02" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="text-link-pc">理科 計算・作図・記述<br />の完成</p>
+                <p class="text-link-sp">理科 計算・作図・記述の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-science03" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>理科 計算問題の解き方</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-socialstudies04" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p class="text-link-pc">社会 長文・資料読解の<br />完成</p>
+                <p class="text-link-sp">社会 長文・資料読解の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-socialstudies05" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>地歴頻出問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-socialstudies02" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>社会 記述問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-socialstudies03" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>社会 資料問題の完成</p>
+              </a>
+            </li>
+            <li>
+              <a href="/product/nk-socialstudies01" class="link-cc">
+                <div class="li-cc">
+                  <img src="../../_newAssets/image/special/nk/arrow-drop.png" class="arr-dr" />
+                </div>
+                <p>テーマ史の完成</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer">
+      <section class="section-footer">
+        <div class="container-section container-section-footer">
+          <div class="all-box">
+            <div class="box-1">
+              <div class="title-ft">
+                <a href="../../index.html">
+                  <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku-logo" />
+                  <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+                </a>
+              </div>
+              <div class="lorem-ft font_heavy">
+                <span>© KOGAKU Shuppan Co.,Ltd.</span>
+              </div>
+            </div>
+            <div class="box-2 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../product/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    教材紹介
+                  </a>
+                </li>
+                <li>
+                  <a href="../../ict/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    ICT教材
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ondemand.kogaku-pub.com/kogaku/" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    オンデマンド教材
+                  </a>
+                </li>
+                <li>
+                  <a href="../../supporttools/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    教材サポート
+                  </a>
+                </li>
+                <li>
+                  <a href="../../info/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    お役立ち情報
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="box-3 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../contact/index.html" class="d-flex">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    お問い合わせ
+                  </a>
+                </li>
+                <li>
+                  <a href="../../qa/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    よくある質問
+                  </a>
+                </li>
+                <li>
+                  <a href="../../company/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    会社情報
+                  </a>
+                </li>
+                <li>
+                  <a href="../../recruit/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    採用情報
+                  </a>
+                </li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="box-4 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../privacy/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    個人情報保護方針
+                  </a>
+                </li>
+                <li>
+                  <a href="../../sitepolicy/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    ご利用規約
+                  </a>
+                </li>
+                <li>
+                  <a href="../../sitemap/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    サイトマップ
+                  </a>
+                </li>
+                <li></li>
+                <li></li>
+                <li>
+                  <div class="lorem font_heavy">
+                    <span>好学出版のソーシャルメディア公式アカウント</span>
+                  </div>
+
+                  <div class="image d-flex">
+                    <a class="text-muted" href="https://twitter.com/kogaku_pub" target="_blank">
+                      <img src="../../_newAssets/image/common/img_twitter.png" alt="twitter" />
+                    </a>
+                    <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                      <img src="../../_newAssets/image/common/icon_fb.gif" alt="facebook" />
+                    </a>
+
+                    <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                      <img src="../../_newAssets/image/common/icon_yb.png" alt="youtube" />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="all-box-mb">
+            <div class="box-1">
+              <div class="title-ft">
+                <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku_logo" />
+                <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+              </div>
+            </div>
+            <div class="box-2 d-flex flex-wrap box-ft box font_heavy">
+              <div class="box">
+                <a href="../../product/index.html" class="d-flex">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>教材紹介</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../ict/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>ICT教材</span>
+                </a>
+              </div>
+
+              <div class="box">
+                <a href="./..https://ondemand.kogaku-pub.com/kogaku/"></a>
+                <div class="bg-img">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <span>オンデマンド教材</span>
+              </div>
+
+              <div class="box">
+                <a href="../../supporttools/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>教材サポート</span>
+                </a>
+              </div>
+
+              <div class="box">
+                <a href="../../info/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>お役立ち情報</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="box-3 box-ft box font_heavy d-flex flex-wrap">
+              <div class="box">
+                <a href="../../contact/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>お問い合わせ</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../privacy/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>個人情報保護方針</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../qa/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>よくある質問</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../sitepolicy/">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>ご利用規約</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../company/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>会社情報</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../sitemap/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>サイトマップ</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../recruit/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>採用情報</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="box-5 box-ft d-flex flex-wrap">
+              <div class="all-icon d-flex justify-content-center">
+                <div class="lorem font_heavy">
+                  <span>ソーシャルメディア公式アカウント</span>
+                </div>
+                <div class="image d-flex">
+                  <a class="text-muted" href="https://twitter.com/kogaku_pub" target="_blank">
+                    <img src="../../_newAssets/image/common/img_twitter.png" alt="twitter" />
+                  </a>
+                  <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                    <img src="../../_newAssets/image/common/img_facebook.png" alt="facebook" />
+                  </a>
+                  <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                    <img src="../../_newAssets/image/common/img_youtube.png" alt="youtube" />
+                  </a>
+                </div>
+              </div>
+              <div class="coppy-right w-100 justify-content-center">
+                <div class="lorem-ft font_heavy">
+                  <span>© KOGAKU Shuppan Co.,Ltd.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <a id="button">
+      <div class="image">
+        <img src="./../../_newAssets/image/common/arrow-scroll-top.png" alt="" />
+      </div>
+      <div class="text font_heavy d-flex">
+        <span>ページ上部</span>
+      </div>
+    </a>
+
+    <script>
+      let fnResize = () => {
+        var isMobile =
+          /Android|webOS|iPhone|iPad|MacIntel|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+          window.navigator.userAgent.indexOf("Mobile") !== -1;
+        let fn = () => {
+          let windowWidth = isMobile ? window.outerWidth : window.innerWidth;
+          $("html").css("overflow-y", "overlay");
+
+          let zoomValue = windowWidth >= 1200 ? 1 : windowWidth / 1200;
+
+          if (windowWidth <= 670) zoomValue = 1;
+
+          let isNeedZoom = zoomValue != 1;
+
+          window.zoomValue = zoomValue;
+
+          if (!$("#zoom-container").length) {
+            let bodyChildren = $("body").children();
+
+            let relativeDiv = $(document.createElement("div")).attr("id", "relative-container").css("position", "").append(bodyChildren);
+            let zoomDiv = $(document.createElement("div")).attr("id", "zoom-container").append(relativeDiv);
+            $("body").append(zoomDiv);
+          }
+
+          if (isMobile)
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=${isNeedZoom ? 1200 : windowWidth}, user-scalable=1`);
+          else {
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=device-width, user-scalable=1`);
+
+            if (zoomValue != 1) {
+              $("#zoom-container").css({
+                transform: "scale(" + zoomValue + ")",
+                "-ms-transform": "scale(" + zoomValue + ")",
+                "-moz-transform": "scale(" + zoomValue + ")",
+                "-webkit-transform": "scale(" + zoomValue + ")",
+                "transform-origin": "0 0",
+                "-ms-transform-origin": "0 0",
+                "-moz-transform-origin": "0 0",
+                "-webkit-transform-origin": "0 0",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                width: !isMobile ? "1200px" : 1200 / zoomValue + "px",
+                height: 100 / zoomValue + "%",
+              });
+            } else {
+              $("#zoom-container").css({
+                transform: "",
+                "-ms-transform": "",
+                "-moz-transform": "",
+                "-webkit-transform": "",
+                "transform-origin": "",
+                "-ms-transform-origin": "",
+                "-moz-transform-origin": "",
+                "-webkit-transform-origin": "",
+                position: "",
+                // position: "absolute",
+                top: "0",
+                left: "0",
+                width: "100%",
+                height: "100%",
+              });
+              // $("#relative-container").css("position", "");
+            }
+          }
+
+          if (!window.styleMaps) window.styleMaps = {};
+
+          const { styleMaps } = window;
+
+          if (!isMobile) {
+            Object.keys(document.styleSheets)
+              .map((x) => ({ key: x, info: document.styleSheets[x] }))
+              .filter((x) => !x.info.href || x.info.href.indexOf("_newAssets") > -1)
+              .forEach((s) => {
+                $(document.styleSheets[s.key].cssRules)
+                  .toArray()
+                  .forEach((x, idx) => {
+                    let isPassFilter =
+                      x.media &&
+                      (x.cssText.indexOf("(min-width: ") > -1 ||
+                        x.cssText.indexOf("(max-width: ") > -1 ||
+                        x.parentStyleSheet.href.indexOf("header.css") > -1 ||
+                        x.parentStyleSheet.href.indexOf("footer.css") > -1);
+
+                    if (!isPassFilter) return;
+                    if (!styleMaps[s.key]) {
+                      styleMaps[s.key] = {
+                        href: x.parentStyleSheet.href,
+                      };
+                    }
+                    if (!styleMaps[s.key][idx]) {
+                      styleMaps[s.key][idx] = {};
+                    }
+                    if (!styleMaps[s.key][idx].origin) {
+                      styleMaps[s.key][idx].origin = {
+                        media_text: x.media.mediaText,
+                      };
+                      if (x.media.mediaText.indexOf("max-width") > -1 && x.media.mediaText.indexOf("min-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "max-min-width";
+                      } else if (x.media.mediaText.indexOf("max-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "maxwidth";
+                      } else {
+                        styleMaps[s.key][idx].origin.type = "minwidth";
+                      }
+
+                      // styleMaps[s.key][idx].origin.value = Number(x.media.mediaText.split("px")[0].split("width:")[1].trim());
+                    }
+
+                    const originInfo = styleMaps[s.key][idx].origin;
+
+                    if (originInfo.type == "max-min-width") {
+                      x.media.mediaText = "(max-width: 1px)";
+                    } else if (originInfo.type == "maxwidth") {
+                      x.media.mediaText = "(max-width: 671px)";
+                    } else if (originInfo.type == "minwidth") {
+                      x.media.mediaText = "(min-width: 671px)";
+                    }
+
+                    if (windowWidth <= 670) {
+                      x.media.mediaText = originInfo.media_text;
+                    }
+
+                    styleMaps[s.key][idx].current = x.media.mediaText;
+                  });
+              });
+          }
+          PageTopAnime();
+        };
+
+        fn();
+        let count = 0;
+        let itv = setInterval(() => {
+          count += 1;
+          if (count > 5) {
+            clearInterval(itv);
+            return;
+          }
+          fn();
+        }, 20);
+      };
+
+      function PageTopAnime() {
+        var isMobile =
+          /Android|webOS|iPhone|iPad|MacIntel|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+          window.navigator.userAgent.indexOf("Mobile") !== -1;
+
+        let buttonEl = $("#button");
+        let footerEl = $(".section-footer");
+
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 200) {
+          buttonEl.removeClass("DownMove");
+          buttonEl.addClass("UpMove");
+        } else {
+          if (buttonEl.hasClass("UpMove")) {
+            buttonEl.removeClass("UpMove");
+            buttonEl.addClass("DownMove");
+          }
+        }
+
+        let rectButton = buttonEl[0].getBoundingClientRect();
+        let rectFooter = footerEl[0].getBoundingClientRect();
+
+        let isUseScale = !isMobile && window.zoomValue != 1;
+
+        if (isUseScale) {
+          let pos = (scroll - 20) / window.zoomValue;
+
+          let scroll2 = $(document).height() - window.innerHeight - rectFooter.height + rectButton.height;
+
+          let isSetFixPos = scroll > scroll2;
+
+          if (isSetFixPos) {
+            pos = scroll2 / window.zoomValue - rectButton.height / 2;
+            buttonEl.css("bottom", -pos);
+          } else {
+            buttonEl.css("bottom", -pos);
+          }
+          buttonEl.css("right", -window.zoomValue * 3 + 1 + "vw");
+        } else {
+          let isSetFixPos = window.innerHeight / (isMobile ? 1 : window.zoomValue) - rectButton.height / 2 > rectFooter.y;
+
+          if (isSetFixPos) {
+            var pos = window.innerHeight / (isMobile ? 1 : window.zoomValue) - rectFooter.y - rectButton.height / 2;
+            buttonEl.css("bottom", pos);
+          } else {
+            if (buttonEl.hasClass("UpMove")) {
+              buttonEl.css("bottom", "20px");
+            }
+          }
+          buttonEl.css("right", "-3vw");
+        }
+      }
+
+      const fnSetSameTitleHeight = () => {
+        let bookItems = _(
+          $.map($(".materials").children(), (x) => {
+            $(x).find(".material-item-title-p").css("height", "auto");
+
+            return { el: x, rect: $(x)[0].getBoundingClientRect(), titleHeight: $(x).find(".material-item-title-p").outerHeight() };
+          })
+        )
+          .groupBy((x) => x.rect.y)
+          .toArray()
+          .value();
+        bookItems.forEach((grp) => {
+          let maxTitleHeight = _.max(grp.map((x) => x.titleHeight));
+          grp.forEach((x) => {
+            if (x.titleHeight != maxTitleHeight) {
+              $(x.el).find(".material-item-title-p").outerHeight(maxTitleHeight);
+            }
+          });
+        });
+      };
+
+      let fnSetBgFullBlue = () => {
+        let elBgFullBlue = $(".bg-full-blue");
+        let elTitleFullBlue = $(".title-full-blue");
+        let bodyWidth = $("body").width();
+        let elTitleRect = elTitleFullBlue[0].getBoundingClientRect();
+        elBgFullBlue.css("width", bodyWidth + "px").css("margin-left", -elTitleRect.x + "px");
+      };
+
+      $(document).ready(function () {
+        console.log("product_detail ready");
+
+        fnResize();
+        // fnSetBgFullBlue();
+        fnSetSameTitleHeight();
+
+        $(window).resize(() => {
+          fnResize();
+          // fnSetBgFullBlue();
+          fnSetSameTitleHeight();
+        });
+        $(".materials").on("DOMSubtreeModified", function () {
+          fnSetSameTitleHeight();
+        });
+
+        var btn = $("#button");
+
+        $(window).scroll(function () {
+          PageTopAnime();
+        });
+
+        $(window).on("load", function () {
+          PageTopAnime();
+        });
+
+        btn.on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "100");
+        });
+
+        for (let i = 0; i < 5; i++) {
+          $("#li_" + i).hover(function () {
+            if (this.className == "li_drop") {
+              console.log($("#li_" + i));
+              this.classList.add("active");
+            } else {
+              this.classList.remove("active");
+            }
+          });
+        }
+
+        let title_slide = ["book_1", "book_2", "book_3", "book_4", "book_5", "book_6", "book_7"];
+
+        $(".arrow-pre-wrapper").click(function () {
+          $(".carousel-control-prev").click();
+
+          let selectedImageIdx = $(".carousel-item").toArray().indexOf($(".carousel-item.active")[0]);
+          selectedImageIdx -= 1;
+          if (selectedImageIdx >= $(".image-thumbnail-slider").length) selectedImageIdx = 0;
+
+          console.log("selectedImageIdx", selectedImageIdx);
+          $(".image-thumbnail-slider").removeClass("active");
+          $(".image-thumbnail-slider").eq(selectedImageIdx).addClass("active");
+          if (selectedImageIdx == -1) {
+            $(".name").text(title_slide.slice(-1).pop());
+          } else {
+            $(".name").text(title_slide[selectedImageIdx]);
+          }
+        });
+
+        $(".arrow-next-wrapper").click(function () {
+          $(".carousel-control-next").click();
+
+          let selectedImageIdx = $(".carousel-item").toArray().indexOf($(".carousel-item.active")[0]);
+          selectedImageIdx += 1;
+          if (selectedImageIdx >= $(".image-thumbnail-slider").length) selectedImageIdx = 0;
+
+          console.log("selectedImageIdx", selectedImageIdx);
+          $(".image-thumbnail-slider").removeClass("active");
+          $(".image-thumbnail-slider").eq(selectedImageIdx).addClass("active");
+          if (selectedImageIdx == -1) {
+            $(".name").text(title_slide.slice(-1).pop());
+          } else {
+            $(".name").text(title_slide[selectedImageIdx]);
+          }
+        });
+
+        $(".image-thumbnail-slider").click(function () {
+          $(".image-thumbnail-slider").removeClass("active");
+          $(this).addClass("active");
+          let book_active = document.getElementsByClassName("image-thumbnail-slider");
+
+          $.each(book_active, function (i, val) {
+            let book_name = val.className;
+            console.log(val.className);
+            if (book_name.includes("active")) {
+              $(".name").text(title_slide[i]);
+            }
+          });
+        });
+
+        var modalZoomImage = $("#modal-zoom-image");
+        var imageWillBeZoom = $("#image-will-be-zoomed");
+        let overflowOrigin = $("body").css("overflow");
+        $(".icon-wrapper").click(function () {
+          $("body").css("overflow", "hidden");
+          $("body").css("overflow", "hidden");
+          let self = $(this);
+          let zoomImage = self.parent().find(".image-zoom");
+          if (!zoomImage) return;
+
+          modalZoomImage.css("display", "block");
+          imageWillBeZoom.attr("src", zoomImage.attr("src"));
+        });
+
+        $("#modal-zoom-image > .close, #modal-zoom-image > .background").click(function () {
+          modalZoomImage.css("display", "none");
+          imageWillBeZoom.attr("src", "");
+          $("body").css("overflow", overflowOrigin);
+        });
+
+        let imgZoom_1 = document.querySelectorAll(".img-desc_1");
+        let imgZoom_2 = document.querySelectorAll(".img-desc_2");
+        let hassClassZoom_1 = $(imgZoom_1).hasClass("image-zoom");
+        let hassClassZoom_2 = $(imgZoom_2).hasClass("image-zoom");
+
+        function setWidthZoom() {
+          var widthWindown = $(window).width(); //スクロール値を取得
+          if (widthWindown < 671) {
+            $(imgZoom_2).addClass("image-zoom");
+            if (!hassClassZoom_2) {
+              $(imgZoom_2).addClass("image-zoom");
+            }
+
+            $(imgZoom_1).removeClass("image-zoom");
+          }
+
+          if (widthWindown >= 671) {
+            $(imgZoom_1).addClass("image-zoom");
+            $(imgZoom_2).removeClass("image-zoom");
+
+            // console.log(classSlidePC);
+            if (!hassClassZoom_1) {
+              $(imgZoom_1).addClass("image-zoom");
+            }
+          }
+        } //updarte
+
+        window.addEventListener("resize", function () {
+          setWidthZoom();
+        });
+
+        setWidthZoom();
+      });
+    </script>
+
+    <script>
+      $(".navbar-toggler").click(function () {
+        $(".header").toggleClass("bg-radius");
+        $(":root").toggleClass("scroll");
+        $(".navbar-light").toggleClass("show");
+      });
+
+      for (let i = 0; i < 4; i++) {
+        $(".bg-btn-select-" + i).click(function () {
+          $(".form-btn-" + i).toggleClass("display-none");
+          $(".title-select-" + i).toggleClass("close-tab-form");
+        });
+      }
+      var tabLinks = document.querySelectorAll(".category-wapper");
+
+      tabLinks.forEach(function (el) {
+        el.addEventListener("click", openTabs);
+      });
+
+      function openTabs(el) {
+        var btn = el.currentTarget;
+
+        tabLinks.forEach(function (el) {
+          el.classList.remove("active");
+        });
+        btn.classList.add("active");
+      }
+    </script>
+
+    <script>
+      function openPage(pageName, elmnt) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

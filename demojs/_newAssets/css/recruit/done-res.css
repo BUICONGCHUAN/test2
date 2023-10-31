@@ -1,0 +1,77 @@
+@media (max-width: 670px) {
+  .main-content {
+    width: 90%;
+    border-radius: 6vw;
+    margin: 0px auto 50px;
+    height: auto;
+  }
+  .title-container .search-title {
+    font-size: 4vw !important;
+    line-height: 5vw;
+    letter-spacing: 0;
+  }
+  .content-title-done {
+    font-size: 4.5vw;
+    text-align: center;
+    letter-spacing: 0.2vw;
+    margin-bottom: 3vw;
+
+    }
+    .content-sp{
+        
+      padding: 1vw 2vw 10vw;
+
+        font-size: 2.8vw;
+        letter-spacing: 0;
+        line-height: 5vw;
+    }
+    .main-content img{
+        display: block;
+        width: 12vw;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-gray-in-table .bg-btn{
+        width: 90vw;
+
+  }
+  
+  .main-content img {
+    display: block;
+    width: 12vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-gray-in-table .bg-btn {
+    width: 90vw;
+
+    height: 14vw;
+    border-radius: 20vw;
+  }
+  .sp-none {
+    display: none;
+  }
+  .pc-none {
+    display: block;
+  }
+  .btn-gray-in-table .bg-btn .bg-img {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    margin-right: 0;
+    margin-left: -76vw;
+  }
+  .btn-gray-in-table .bg-btn .bg-img img {
+    width: 2vw;
+  }
+  .btn-gray-in-table .bg-btn span {
+    font-size: 4.5vw;
+    font-family: "mplus 1p heavy" !important;
+    letter-spacing: 0.3vw;
+    margin-left: 4vw;
+  }
+}

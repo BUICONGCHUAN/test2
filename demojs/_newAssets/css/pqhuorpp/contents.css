@@ -1,0 +1,396 @@
+nav.link-resource {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    background-color: #e6e6e6;
+}
+
+nav.link-resource .all-link a:not(:last-child):hover {
+    opacity: 0.5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@font-face {
+    font-family: "mplus 1p bold";
+    src: url("../../fonts/mplus-1p-bold.ttf");
+}
+
+@font-face {
+    font-family: "mplus 1p regular";
+    src: url("../../fonts/mplus-1p-regular.ttf");
+}
+
+@font-face {
+    font-family: "mplus 1p heavy";
+    src: url("../../fonts/mplus-1p-heavy.ttf");
+}
+
+@font-face {
+    font-family: "mplus 1p medium";
+    src: url("../../fonts/mplus-1p-medium.ttf");
+}
+
+@font-face {
+    font-family: "mplus 2p bold";
+    src: url("../../fonts/mplus-2p-bold.ttf");
+}
+
+@font-face {
+    font-family: "mplus 2p heavy";
+    src: url("../../fonts/mplus-2p-heavy.ttf");
+}
+
+@font-face {
+    font-family: "mplus 1p light";
+    src: url("../../fonts/mplus-1p-light.ttf");
+}
+
+@font-face {
+    font-family: "mplus 1p medium";
+    src: url("../../fonts/mplus-1p-medium.ttf");
+}
+
+@font-face {
+    font-family: "roboto black";
+    src: url("../../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "BIZ-UDGOTHICB";
+    src: url("../../fonts/BIZ-UDGOTHICB.ttf");
+}
+
+
+@font-face {
+    font-family: "A-OTF-Jun501Pro-Bold";
+    src: url("../../fonts/A-OTF-Jun501Pro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "BIZ-UDMINCHOM";
+    src: url("../../fonts/BIZ-UDMINCHOM.ttf");
+}
+
+.font_bizChom {
+    font-family: "BIZ-UDMINCHOM";
+
+}
+
+.font-jun34-bold {
+    font-family: "A-OTF-Jun501Pro-Bold";
+}
+
+.font_biz_gothic_cb {
+    font-family: "BIZ-UDGOTHICB" !important;
+} 
+
+.font_bold {
+    font-family: "mplus 1p bold" !important;
+}
+
+.font_heavy {
+    font-family: "mplus 1p heavy" !important;
+}
+
+.font_regular {
+    font-family: "mplus 1p regular" !important;
+}
+
+.font_medium {
+    font-family: "mplus 1p medium" !important;
+}
+
+.font_light {
+    font-family: "mplus 1p light" !important;
+}
+
+.font_bold_2 {
+    font-family: "mplus 2p bold" !important;
+}
+
+.font_heavy_2 {
+    font-family: "mplus 2p heavy" !important;
+}
+
+.font_roboto {
+    font-family: "roboto black";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "mplus 1p light"; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.all-box {
+    position: relative;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.bg-left {
+    height: 100vh;
+    background-color: #AAD6E7;
+}
+
+.bg-right {
+    position: relative;
+    margin: 60px 100px;
+    padding-left: 100px;
+    margin-left: 0;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: -20px;
+    align-self: center;
+    margin-right: 0;
+}
+
+.all-box .line {
+    display: flex;
+    width: 100%;
+    margin-bottom: 31.9px;
+    z-index: 10;
+}
+
+.all-box .line h1 {
+    font-size: 25px;
+    color: #4A9A82;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+
+.all-box .line a {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.simple {
+    width: 90px;
+}
+
+.simple img {
+    width: 80px;
+}
+
+.all-image {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+
+.all-image .img-left {
+    display: flex;
+}
+
+.all-image .img-right {
+    display: flex;
+}
+
+.all-image img {
+    width: 100%;
+}
+
+.box-img {
+    width: 125px;
+    align-self: flex-end;
+}
+
+.image-fly .img-text {
+    position: absolute;
+    bottom: 210px;
+    left: -192px;
+}
+
+.image-fly .img-text img {
+    width: 220px;
+}
+
+.image-fly .img-birt {
+    position: absolute;
+    bottom: 150px;
+    left: -114px;
+    transform: rotate(349deg);
+}
+
+.image-fly .img-birt img {
+    width: 80px;
+    transform: scaleX(-1);
+}
+
+.box-top img {
+    margin: auto;
+    width: 220px;
+}
+
+.box-top h1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    text-decoration: 3px underline;
+    text-decoration-line: underline;
+    text-decoration-color: #74B5E4;
+    text-underline-offset: 15px;
+}
+
+#footer {
+    height: auto;
+}
+
+.tile-span {
+    margin: auto;
+    margin-top: 70px;
+}
+
+.tile-span span {
+    font-size: 22px;
+    color: #4A9A82;
+}
+
+.all-box .out-h1 {
+    position: relative;
+}
+
+.line-underline {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #6AF6AD;
+    bottom: 0;
+    z-index: -1;
+}
+
+.line span {
+    margin-right: 20px;
+}
+
+.line .span-10 {
+    margin-right: 15px;
+}
+
+
+.text-bottom {
+    position: absolute;
+    top: 670px;
+    line-height: 20px;
+}
+
+.text-bottom span {
+    font-size: 15px;
+}
+
+@media (max-width: 670px) {
+
+    .text-bottom { 
+        top: 133vw;
+        line-height: 2.5vw;
+
+    }
+
+    .text-bottom span {
+        font-size: 2.8vw;
+    }
+
+    .box-top img {
+        width: 24vw;
+        margin-top: 7vw;
+    }
+
+
+    .box-top h1 {
+        font-size: 4vw;
+    }
+
+    .simple img {
+        width: 10vw;
+    }
+
+
+    .bg-right {
+        margin: 14vw 5vw;
+        padding-left: 6vw !important;
+        padding: 0;
+        margin-left: 0 !important;
+        margin-bottom: 0;
+        margin-top: 10vw !important;
+        align-self:flex-start
+    }
+
+    .all-box .line {
+        margin-bottom: 7vw;
+    }
+
+    .all-box .line h1 {
+        font-size: 4.5vw;
+        letter-spacing: .3vw;
+    }
+
+    .simple {
+        width: 10vw;
+    }
+
+    .image-fly .img-birt img {
+        width: 13vw;
+    }
+
+    .image-fly .img-birt {
+        bottom: 0vw;
+        left: -15vw;
+    }
+
+    .box-img {
+        width: 11vw;
+    }
+
+    .tile-span {
+        margin-top: 17vw;
+    }
+
+    .tile-span span {
+        font-size: 2.5vw;
+        color: #4A9A82;
+    }
+
+    .box-top h1 {
+        text-decoration: 1vw underline !important;
+        text-decoration-line: underline;
+        text-decoration-color: #74B5E4 !important;
+        text-underline-offset: 1.5vw;
+        margin-top: 1vw;
+    }
+
+    .line-underline {
+        height: 1vw;
+        background-color: #6AF6AD;
+        bottom: .5vw;
+        z-index: -1;
+    }
+
+    .image-fly .img-text {
+        position: absolute;
+        bottom: 11vw;
+        left: -26.5vw;
+    }
+
+    .image-fly .img-text img {
+        width: 30vw;
+    }
+
+    .line span {
+        margin-right: 2vw;
+    }
+
+    .line .span-10 {
+        margin-right: 2vw;
+    }
+}

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../../_newAssets/icon/favicon.png" />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="../../_newAssets/bootstrap-4.0.0/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>アンケートフォーム｜教育情報誌ウィズティ｜お役立ち情報｜学習塾・国立私立学校専用教材の出版社【好学出版】</title>
+    <meta name="description" content="教育情報誌ウィズティに関するご意見・ご要望など、お気軽にお聞かせください。" />
+ 
+    <link rel="stylesheet" href="../../_newAssets/css/info/info.css" />
+    <link rel="stylesheet" href="../../_newAssets/css/info/done-res.css" />
+
+    <link rel="stylesheet" href="../../_newAssets/css/header.css" />
+    <link rel="stylesheet" href="../../_newAssets/css/footer.css" />
+    <script src="../../_newAssets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../_newAssets/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../../_newAssets/js/jquery.min.js"></script>
+    <script src="../../_newAssets/js/lodash.min.js"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+        <div class="container-fluid col-12 col-lg-2">
+          <div class="navbar-brand d-flex flex-wrap align-items-center col-3 col-sm-3 col-md-3 col-lg-3">
+            <a href="/">
+              <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku_logo.png" />
+            </a>
+            <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+          </div>
+          <div class="btn-collapse col-3 d-flex justify-content-end">
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="line-collaps">
+                <p></p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="collapse collapse-mb navbar-collapse w-100" id="navbarText">
+          <div class="navbar-in d-flex flex-wrap">
+            <ul class="navbar-nav mb-2 mb-lg-0 fs-6 cl-gray font_heavy justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link title-nav w-100" href="../../product/index.html">
+                  <div class="bg-img bg-sky">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+
+                  教材紹介
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="../../ict/index.html">ICT教材</a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="https://ondemand.kogaku-pub.com/kogaku/">オンデマンド教材</a>
+              </li>
+              <li class="nav-item">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" href="./supporttools/index.html">教材サポート</a>
+              </li>
+              <li class="nav-item active">
+                <div class="bg-img bg-sky">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <a class="nav-link title-nav" style="position: relative" href="./info/index.html">お役立ち情報</a>
+              </li>
+              <li class="nav-item nav-toggle d-flex align-items-center">
+                <div class="drop-down">
+                  <img src="../../_newAssets/image/common/logo-inbox.png" alt="logo-inbox.png" />
+                  <img src="../../_newAssets/image/common/logo-inbox-disables.png" alt="logo-inbox-disables.png" />
+                </div>
+                <div class="img-drop">
+                  <ul>
+                    <li id="li_1">
+                      <a class="li_drop" href="./contact/index.html">
+                        <img class="img_drop" id="img_1" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />お問い合わせ
+                      </a>
+                    </li>
+
+                    <li id="li_2">
+                      <a class="li_drop" href="../qa/index.html">
+                        <img class="img_drop" id="img_2" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />よくある質問
+                      </a>
+                    </li>
+
+                    <li id="li_3">
+                      <a class="li_drop" href="../company/index.html">
+                        <img class="img_drop" id="img_3" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />会社情報
+                      </a>
+                    </li>
+
+                    <li id="li_4">
+                      <a class="li_drop" href="./recruit/index.html">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />採用案内
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle icon-first" id="li_4">
+                      <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_facebook.png" alt="img_facebook.png" />facebook
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle" id="li_4">
+                      <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_youtube.png" alt="img_youtube.png" />Youtube
+                      </a>
+                    </li>
+
+                    <li class="icon-toggle" id="li_4">
+                      <a class="text-muted" href="#" target="_blank">
+                        <img class="img_drop" id="img_4" src="../../_newAssets/image/common/img_twitter.png" alt="img_twitter.png" />Twitter
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <div class="nav-toggle-mb font_heavy w-100">
+              <div class="all-box-toggle justify-content-between d-flex flex-wrap">
+                <div class="box-left d-flex flex-wrap">
+                  <a class="box-1 w-100" href="/contact/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_1" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span>お問い合わせ</span>
+                  </a>
+                  <a class="box-1 w-100" href="/qa/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_2" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span>よくある質問</span>
+                  </a>
+                </div>
+
+                <div class="box-right d-flex flex-wrap">
+                  <a class="box-1 w-100" href="/company/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_3" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span> 会社情報 </span>
+                  </a>
+                  <a class="box-1 w-100" href="/recruit/guideline/">
+                    <div class="bg-img">
+                      <img class="img_drop" id="img_4" src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    <span> 採用案内 </span>
+                  </a>
+                </div>
+              </div>
+              <div class="box-icon d-flex justify-content-center">
+                <div class="icon-fb d-flex flex-wrap">
+                  <a class="text-muted d-flex flex-wrap justify-content-center" href="https://twitter.com/kogaku_pub" target="_blank">
+                    <img class="img_drop twi-mobile" id="img_4" src="../../_newAssets/image/common/img_twitter.png" alt="img_twitter.png" /><span
+                      class="w-100 d-flex justify-content-center twi-mobile"
+                      >Twitter</span
+                    >
+                  </a>
+                </div>
+                <div class="icon-yb d-flex flex-wrap">
+                  <a class="text-muted d-flex flex-wrap justify-content-center" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                    <img class="img_drop fb-mobile" id="img_4" src="../../_newAssets/image/common/img_facebook.png" alt="img_facebook.png" /><span
+                      class="w-100 d-flex justify-content-center fb-mobile"
+                      >facebook</span
+                    >
+                  </a>
+                </div>
+
+                <div class="icon-twitter d-flex flex-wrap">
+                  <a
+                    class="text-muted d-flex flex-wrap justify-content-center"
+                    href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured"
+                    target="_blank"
+                  >
+                    <img class="img_drop yb-mobile" id="img_4" src="../../_newAssets/image/common/img_youtube.png" alt="img_youtube.png" /><span
+                      class="w-100 d-flex justify-content-center yb-mobile"
+                      >Youtube</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section> 
+    <nav class="link-resource">
+      <div class="all-link text-regular">
+        <a href="../../index.html">トップページ</a>
+        <span>/</span>
+        <a href="/info/witht/index.html">教育情報誌ウィズティ</a>
+
+        <span>/</span>
+        <a class="font-heavy">アンケートフォーム</a>
+      </div>
+    </nav>
+    <nav class="link-resource link-resource-sp">
+      <div class="all-link d-flex font_bold">
+        <a href="../../index.html">TOP</a>
+        <span></span>
+        <a href="/info/witht/index.html">教育情報誌ウィズティ</a>
+      </div>
+      <div class="bg-gray"></div>
+    </nav>
+    <section class="bg-color">
+      <div class="modal-show">
+        <div class="search-container">
+          <div class="title-bg">
+            <div class="title">
+              <span class="sp-none font_bold">学習塾と好学出版をつなぐ教育情報誌「ウィズティ」</span>
+              <span class="pc-none font_bold">学習塾と好学出版をつなぐ教育情報誌 <br>「ウィズティ」</span>
+              
+              <h1 class="search-title font_heavy">ご意見・ご要望</h1>
+            </div>
+          </div>
+          <div class="image-title">
+            <img src="../../_newAssets/image/info/image-book-title.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="level-section section-done d-flex justify-content-center">
+      <div class="all-level d-flex font-heavy shape active-done">
+        <!-- <div class="bg-left"></div>
+                <div class="bg-right"></div> -->
+        <div class="box-arrow box-start d-flex active">
+          <div class="arrow in-arrow d-flex align-items-center justify-content-center">
+            <div class="number">
+              <span>1</span>
+            </div>
+            <div class="title">
+              <h1>ご入力</h1>
+            </div>
+          </div>
+          <div class="arrow-1 arrow-polygon"></div>
+        </div>
+        <div class="box-arrow box-center d-flex active">
+          <div class="arrow-2 in-arrow d-flex align-items-center justify-content-center">
+            <div class="number">
+              <span>2</span>
+            </div>
+            <div class="title">
+              <h1>ご確認</h1>
+            </div>
+          </div>
+          <div class="arrow-2-1 arrow-polygon"></div>
+        </div>
+        <div class="box-arrow box-end active d-flex justify-content-center align-items-center">
+          <div class="arrow-3 in-arrow d-flex align-items-center justify-content-center">
+            <div class="number">
+              <span>3</span>
+            </div>
+            <div class="title">
+              <h1>完了</h1>
+            </div>
+          </div>
+          <div class="arrow-3-1 arrow-polygon"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="body-content">
+      <div class="blue-row"></div>
+      <div class="main-content">
+        <img src="../../_newAssets/image/contact/done/icon-img.png" />
+        <h1 class="content-title font-heavy">ご意見・ご要望のご送信ありがとうございました</h1>
+        <!-- <span class="content-sp font-heavy">
+                    ダミーテキストが入ります。ダミーテキストが入ります。ダミーテキストが入りま<br>
+                    す。ダミーテキストが入ります。 ダミーテキストが入ります。ダミーテキストが入り<br>
+                    ます。ダミーテキストが入ります。ダミーテキストが入ります。ダミーテキストが入<br>
+                    ります。ダミーテキストが入ります。ダミーテキストが入ります。
+                </span> -->
+
+        <div></div>
+      </div>
+      <div class="btn-gray-in-table col-12 d-flex justify-content-center">
+        <a href="../../index.html">
+          <div class="bg-btn d-flex align-items-center font-heavy">
+            <div class="bg-img">
+              <img src="../../_newAssets/image/info/arrow-gray.png" />
+              <img src="../../_newAssets/image/info/arrow_orange.png" />
+            </div>
+            <span>トップページへ</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- <a  class="check" onclick="checkAll()">check</a> -->
+
+    <div id="footer">
+      <section class="section-footer">
+        <div class="container-section container-section-footer">
+          <div class="all-box">
+            <div class="box-1">
+              <div class="title-ft">
+                <a href="../../index.html">
+                  <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku-logo" />
+                  <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+                </a>
+              </div>
+              <div class="lorem-ft font_heavy">
+                <span>© KOGAKU Shuppan Co.,Ltd.</span>
+              </div>
+            </div>
+            <div class="box-2 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../product/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    教材紹介
+                  </a>
+                </li>
+                <li>
+                  <a href="../../ict/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    ICT教材
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ondemand.kogaku-pub.com/kogaku/" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    オンデマンド教材
+                  </a>
+                </li>
+                <li>
+                  <a href="../../supporttools/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    教材サポート
+                  </a>
+                </li>
+                <li>
+                  <a href="../../info/index.html" class="d-flex">
+                    <div class="bg-img">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    お役立ち情報
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="box-3 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../contact/index.html" class="d-flex">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    お問い合わせ
+                  </a>
+                </li>
+                <li>
+                  <a href="../../qa/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    よくある質問
+                  </a>
+                </li>
+                <li>
+                  <a href="../../company/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    会社情報
+                  </a>
+                </li>
+                <li>
+                  <a href="../../recruit/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    採用情報
+                  </a>
+                </li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="box-4 box font_heavy">
+              <ul>
+                <li>
+                  <a href="../../privacy/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    個人情報保護方針
+                  </a>
+                </li>
+                <li>
+                  <a href="../../sitepolicy/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    ご利用規約
+                  </a>
+                </li>
+                <li>
+                  <a href="../../sitemap/index.html">
+                    <div class="bg-img-2">
+                      <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                    </div>
+                    サイトマップ
+                  </a>
+                </li>
+                <li></li>
+                <li></li>
+                <li>
+                  <div class="lorem font_heavy">
+                    <span>好学出版のソーシャルメディア公式アカウント</span>
+                  </div>
+
+                  <div class="image d-flex">
+                    <a class="text-muted" href="https://twitter.com/kogaku_pub" target="_blank">
+                      <img src="../../_newAssets/image/common/img_twitter.png" alt="twitter" />
+                    </a>
+                    <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                      <img src="../../_newAssets/image/common/icon_fb.gif" alt="facebook" />
+                    </a>
+
+                    <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                      <img src="../../_newAssets/image/common/icon_yb.png" alt="youtube" />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="all-box-mb">
+            <div class="box-1">
+              <div class="title-ft">
+                <img src="../../_newAssets/image/common/kogaku_logo.png" alt="kogaku_logo" />
+                <span class="navbar-text font_bold"> 学習塾・国立私立学校専用教材の出版社 </span>
+              </div>
+            </div>
+            <div class="box-2 d-flex flex-wrap box-ft box font_heavy">
+              <div class="box">
+                <a href="../../product/index.html" class="d-flex">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>教材紹介</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../ict/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>ICT教材</span>
+                </a>
+              </div>
+
+              <div class="box">
+                <a href="./..https://ondemand.kogaku-pub.com/kogaku/"></a>
+                <div class="bg-img">
+                  <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                </div>
+                <span>オンデマンド教材</span>
+              </div>
+
+              <div class="box">
+                <a href="../../supporttools/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>教材サポート</span>
+                </a>
+              </div>
+
+              <div class="box">
+                <a href="../../info/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>お役立ち情報</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="box-3 box-ft box font_heavy d-flex flex-wrap">
+              <div class="box">
+                <a href="../../contact/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>お問い合わせ</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../privacy/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>個人情報保護方針</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../qa/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>よくある質問</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../sitepolicy/">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>ご利用規約</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../company/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>会社情報</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../sitemap/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>サイトマップ</span>
+                </a>
+              </div>
+              <div class="box">
+                <a href="../../recruit/index.html">
+                  <div class="bg-img">
+                    <img src="../../_newAssets/image/common/arrow-drop.png" alt="arrow" />
+                  </div>
+                  <span>採用情報</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="box-5 box-ft d-flex flex-wrap">
+              <div class="all-icon d-flex justify-content-center">
+                <div class="lorem font_heavy">
+                  <span>ソーシャルメディア公式アカウント</span>
+                </div>
+                <div class="image d-flex">
+                  <a class="text-muted" href="https://twitter.com/kogaku_pub" target="_blank">
+                    <img src="../../_newAssets/image/common/img_twitter.png" alt="twitter" />
+                  </a>
+                  <a class="text-muted" href="https://www.facebook.com/kogaku.pub" target="_blank">
+                    <img src="../../_newAssets/image/common/img_facebook.png" alt="facebook" />
+                  </a>
+                  <a class="text-muted" href="https://www.youtube.com/channel/UC9C1tqqmlJ2PHbpH3qqXeAQ/featured" target="_blank">
+                    <img src="../../_newAssets/image/common/img_youtube.png" alt="youtube" />
+                  </a>
+                </div>
+              </div>
+              <div class="coppy-right w-100 justify-content-center">
+                <div class="lorem-ft font_heavy">
+                  <span>© KOGAKU Shuppan Co.,Ltd.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a id="button">
+      <div class="image">
+        <img src="../../_newAssets/image/common/arrow-scroll-top.png" alt="" />
+      </div>
+      <div class="text text-heavy d-flex">
+        <span>ページ上部</span>
+      </div>
+    </a>
+
+    <script>
+      let fnResize = () => {
+        var isMobile =
+          /Android|webOS|iPhone|iPad|MacIntel|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+          window.navigator.userAgent.indexOf("Mobile") !== -1;
+        let fn = () => {
+          let windowWidth = isMobile ? window.outerWidth : window.innerWidth;
+          $("html").css("overflow-y", "overlay");
+
+          let zoomValue = windowWidth >= 1200 ? 1 : windowWidth / 1200;
+
+          if (windowWidth <= 670) zoomValue = 1;
+
+          let isNeedZoom = zoomValue != 1;
+
+          window.zoomValue = zoomValue;
+
+          if (!$("#zoom-container").length) {
+            let bodyChildren = $("body").children();
+
+            let relativeDiv = $(document.createElement("div")).attr("id", "relative-container").css("position", "").append(bodyChildren);
+            let zoomDiv = $(document.createElement("div")).attr("id", "zoom-container").append(relativeDiv);
+            $("body").append(zoomDiv);
+          }
+
+          if (isMobile)
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=${isNeedZoom ? 1200 : windowWidth}, user-scalable=1`);
+          else {
+            document.querySelector("meta[name=viewport]").setAttribute("content", `width=device-width, user-scalable=1`);
+
+            if (zoomValue != 1) {
+              $("#zoom-container").css({
+                transform: "scale(" + zoomValue + ")",
+                "-ms-transform": "scale(" + zoomValue + ")",
+                "-moz-transform": "scale(" + zoomValue + ")",
+                "-webkit-transform": "scale(" + zoomValue + ")",
+                "transform-origin": "0 0",
+                "-ms-transform-origin": "0 0",
+                "-moz-transform-origin": "0 0",
+                "-webkit-transform-origin": "0 0",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                width: !isMobile ? "1200px" : 1200 / zoomValue + "px",
+                height: 100 / zoomValue + "%",
+              });
+            } else {
+              $("#zoom-container").css({
+                transform: "",
+                "-ms-transform": "",
+                "-moz-transform": "",
+                "-webkit-transform": "",
+                "transform-origin": "",
+                "-ms-transform-origin": "",
+                "-moz-transform-origin": "",
+                "-webkit-transform-origin": "",
+                position: "",
+                // position: "absolute",
+                top: "0",
+                left: "0",
+                width: "100%",
+                height: "100%",
+              });
+              // $("#relative-container").css("position", "");
+            }
+          }
+
+          if (!window.styleMaps) window.styleMaps = {};
+
+          const { styleMaps } = window;
+
+          if (!isMobile) {
+            Object.keys(document.styleSheets)
+              .map((x) => ({ key: x, info: document.styleSheets[x] }))
+              .filter((x) => !x.info.href || x.info.href.indexOf("_newAssets") > -1)
+              .forEach((s) => {
+                $(document.styleSheets[s.key].cssRules)
+                  .toArray()
+                  .forEach((x, idx) => {
+                    let isPassFilter =
+                      x.media &&
+                      (x.cssText.indexOf("(min-width: ") > -1 ||
+                        x.cssText.indexOf("(max-width: ") > -1 ||
+                        x.parentStyleSheet.href.indexOf("header.css") > -1 ||
+                        x.parentStyleSheet.href.indexOf("footer.css") > -1);
+
+                    if (!isPassFilter) return;
+                    if (!styleMaps[s.key]) {
+                      styleMaps[s.key] = {
+                        href: x.parentStyleSheet.href,
+                      };
+                    }
+                    if (!styleMaps[s.key][idx]) {
+                      styleMaps[s.key][idx] = {};
+                    }
+                    if (!styleMaps[s.key][idx].origin) {
+                      styleMaps[s.key][idx].origin = {
+                        media_text: x.media.mediaText,
+                      };
+                      if (x.media.mediaText.indexOf("max-width") > -1 && x.media.mediaText.indexOf("min-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "max-min-width";
+                      } else if (x.media.mediaText.indexOf("max-width") > -1) {
+                        styleMaps[s.key][idx].origin.type = "maxwidth";
+                      } else {
+                        styleMaps[s.key][idx].origin.type = "minwidth";
+                      }
+
+                      // styleMaps[s.key][idx].origin.value = Number(x.media.mediaText.split("px")[0].split("width:")[1].trim());
+                    }
+
+                    const originInfo = styleMaps[s.key][idx].origin;
+
+                    if (originInfo.type == "max-min-width") {
+                      x.media.mediaText = "(max-width: 1px)";
+                    } else if (originInfo.type == "maxwidth") {
+                      x.media.mediaText = "(max-width: 671px)";
+                    } else if (originInfo.type == "minwidth") {
+                      x.media.mediaText = "(min-width: 671px)";
+                    }
+
+                    if (windowWidth <= 670) {
+                      x.media.mediaText = originInfo.media_text;
+                    }
+
+                    styleMaps[s.key][idx].current = x.media.mediaText;
+                  });
+              });
+          }
+          PageTopAnime();
+        };
+
+        fn();
+        let count = 0;
+        let itv = setInterval(() => {
+          count += 1;
+          if (count > 5) {
+            clearInterval(itv);
+            return;
+          }
+          fn();
+        }, 20);
+      };
+
+      function PageTopAnime() {
+        var isMobile =
+          /Android|webOS|iPhone|iPad|MacIntel|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+          window.navigator.userAgent.indexOf("Mobile") !== -1;
+
+        let buttonEl = $("#button");
+        let footerEl = $(".section-footer");
+
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 200) {
+          buttonEl.removeClass("DownMove");
+          buttonEl.addClass("UpMove");
+        } else {
+          if (buttonEl.hasClass("UpMove")) {
+            buttonEl.removeClass("UpMove");
+            buttonEl.addClass("DownMove");
+          }
+        }
+
+        let rectButton = buttonEl[0].getBoundingClientRect();
+        let rectFooter = footerEl[0].getBoundingClientRect();
+
+        let isUseScale = !isMobile && window.zoomValue != 1;
+
+        if (isUseScale) {
+          let pos = (scroll - 20) / window.zoomValue;
+
+          let scroll2 = $(document).height() - window.innerHeight - rectFooter.height + rectButton.height;
+
+          let isSetFixPos = scroll > scroll2;
+
+          if (isSetFixPos) {
+            pos = scroll2 / window.zoomValue - rectButton.height / 2;
+            buttonEl.css("bottom", -pos);
+          } else {
+            buttonEl.css("bottom", -pos);
+          }
+          buttonEl.css("right", -window.zoomValue * 3 + 1 + "vw");
+        } else {
+          let isSetFixPos = window.innerHeight / (isMobile ? 1 : window.zoomValue) - rectButton.height / 2 > rectFooter.y;
+
+          if (isSetFixPos) {
+            var pos = window.innerHeight / (isMobile ? 1 : window.zoomValue) - rectFooter.y - rectButton.height / 2;
+            buttonEl.css("bottom", pos);
+          } else {
+            if (buttonEl.hasClass("UpMove")) {
+              buttonEl.css("bottom", "20px");
+            }
+          }
+          buttonEl.css("right", "-3vw");
+        }
+      }
+
+      const fnSetSameTitleHeight = () => {
+        let bookItems = _(
+          $.map($(".materials").children(), (x) => {
+            $(x).find(".material-item-title-p").css("height", "auto");
+
+            return { el: x, rect: $(x)[0].getBoundingClientRect(), titleHeight: $(x).find(".material-item-title-p").outerHeight() };
+          })
+        )
+          .groupBy((x) => x.rect.y)
+          .toArray()
+          .value();
+        bookItems.forEach((grp) => {
+          let maxTitleHeight = _.max(grp.map((x) => x.titleHeight));
+          grp.forEach((x) => {
+            if (x.titleHeight != maxTitleHeight) {
+              $(x.el).find(".material-item-title-p").outerHeight(maxTitleHeight);
+            }
+          });
+        });
+      }; 
+
+      $(document).ready(function () { 
+        fnResize(); 
+        $(window).resize(() => {
+          fnResize(); 
+        }); 
+
+        var btn = $("#button");
+
+        $(window).scroll(function () {
+          PageTopAnime();
+        });
+
+        $(window).on("load", function () {
+          PageTopAnime();
+        });
+
+        btn.on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "100");
+        });
+
+        for (let i = 0; i < 5; i++) {
+          $("#li_" + i).hover(function () {
+            if (this.className == "li_drop") {
+              console.log($("#li_" + i));
+              this.classList.add("active");
+            } else {
+              this.classList.remove("active");
+            }
+          });
+        }
+ 
+        }); 
+    </script> 
+    <script>
+      $(".navbar-toggler").click(function () {
+           $(".header").toggleClass("bg-radius");
+           $(":root").toggleClass("scroll");
+           $(".navbar-light").toggleClass("show");
+         });
+   
+         for (let i = 0; i < 4; i++) {
+           $(".bg-btn-select-" + i).click(function () {
+             $(".form-btn-" + i).toggleClass("display-none");
+             $(".title-select-" + i).toggleClass("close-tab-form");
+           });
+         }
+   </script>
+  </body>
+</html>
